@@ -2535,6 +2535,7 @@ python-nose:
     pip:
       packages: [nose]
   slackware: [nose]
+  sles: [python2-nose]
   ubuntu:
     artful: [python-nose]
     bionic: [python-nose]
