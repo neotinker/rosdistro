@@ -4035,6 +4035,7 @@ lz4:
   openembedded: [lz4@openembedded-core]
   opensuse: [lz4]
   slackware: [lz4]
+  sles: [liblz4-devel]
   ubuntu:
     artful: [liblz4-dev]
     bionic: [liblz4-dev]
