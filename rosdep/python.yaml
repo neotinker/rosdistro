@@ -4965,6 +4965,7 @@ python-yaml:
       depends: [yaml]
       packages: [PyYAML]
   rhel: [PyYAML]
+  sles: [python2-PyYAML]
   slackware: [PyYAML]
   ubuntu:
     artful: [python-yaml]
