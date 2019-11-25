@@ -281,6 +281,7 @@ boost:
   slackware:
     slackpkg:
       packages: [boost]
+  sles: [libboost_headers1_66_0-devel,libboost_system1_66_0-devel,libboost_thread1_66_0-devel]
   ubuntu:
     '*': [libboost-all-dev]
     lucid: [libboost1.40-all-dev]
