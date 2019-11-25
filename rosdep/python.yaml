@@ -3779,6 +3779,7 @@ python-rospkg:
   slackware:
     pip:
       packages: [rospkg]
+  sles: [python2-rospkg]
   ubuntu:
     '*': [python-rospkg]
     trusty_python3: [python3-rospkg]
