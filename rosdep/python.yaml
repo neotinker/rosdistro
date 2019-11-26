@@ -1702,6 +1702,7 @@ python-gnupg:
   freebsd: [py27-python-gnupg]
   gentoo: [dev-python/python-gnupg]
   openembedded: [python-gnupg@meta-ros]
+  sles: [python2-python-gnupg]
   ubuntu: [python-gnupg]
 python-google-cloud-bigquery-pip:
   debian:
