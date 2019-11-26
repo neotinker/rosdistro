@@ -5224,6 +5224,7 @@ python3-mock:
   gentoo: [dev-python/mock]
   openembedded: [python3-mock@meta-ros]
   rhel: ['python%{python3_pkgversion}-mock']
+  sles: [python3-mock]
   ubuntu: [python3-mock]
 python3-mypy:
   arch: [mypy]
