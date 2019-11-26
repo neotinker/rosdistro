@@ -1216,6 +1216,7 @@ gtest:
   opensuse: [googletest-devel]
   rhel: [gtest-devel]
   slackware: [gtest]
+  sles: [gtest]
   ubuntu: [libgtest-dev]
 gtk-doc-tools:
   arch: [gtk-doc]
