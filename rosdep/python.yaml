@@ -5146,6 +5146,7 @@ python3-empy:
   gentoo: [dev-python/empy]
   openembedded: [python3-empy@meta-ros]
   rhel: ['python%{python3_pkgversion}-empy']
+  sles: [python3-empy]
   ubuntu: [python3-empy]
 python3-flake8:
   debian:
