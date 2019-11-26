@@ -5144,6 +5144,7 @@ python3-cairo:
   slackware:
     slackpkg:
       packages: [py3cairo]
+  sles: [python3-cairo]
   ubuntu: [python3-cairo]
 python3-catkin-pkg:
   debian: [python3-catkin-pkg]
@@ -5178,6 +5179,7 @@ python3-cryptography:
   debian: [python3-cryptography]
   fedora: [python3-cryptography]
   rhel: ['python%{python3_pkgversion}-cryptography']
+  sles: [python3-cryptography]
   ubuntu: [python3-cryptography]
 python3-defusedxml:
   debian: [python3-defusedxml]
@@ -5190,14 +5192,17 @@ python3-dev:
   gentoo: [=dev-lang/python-3*]
   openembedded: [python3@openembedded-core]
   rhel: ['python%{python3_pkgversion}-devel']
+  sles: [python3-devel]
   ubuntu: [python3-dev]
 python3-django:
   debian: [python3-django]
   fedora: [python3-django]
+  sles: [python3-Django]
   ubuntu: [python3-django]
 python3-django-cors-headers:
   debian: [python3-django-cors-headers]
   fedora: [python3-django-cors-headers]
+  sles: [python3-django-cors-headers]
   ubuntu: [python3-django-cors-headers]
 python3-django-extensions:
   debian: [python3-django-extensions]
@@ -5207,11 +5212,13 @@ python3-django-extra-views:
   ubuntu: [python3-django-extra-views]
 python3-djangorestframework:
   debian: [python3-djangorestframework]
+  sles: [python3-djangorestframework]
   ubuntu: [python3-djangorestframework]
 python3-docker:
   arch: [python-docker]
   debian: [python3-docker]
   fedora: [python3-docker]
+  sles: [python3-docker]
   ubuntu: [python3-docker]
 python3-empy:
   debian:
@@ -5235,6 +5242,7 @@ python3-flake8:
   rhel:
     '*': ['python%{python3_pkgversion}-flake8']
     '7': null
+  sles: [python3-flake8]
   ubuntu: [python3-flake8]
 python3-gitlab:
   debian:
@@ -5245,6 +5253,7 @@ python3-gitlab:
     stretch:
       pip:
         packages: [python-gitlab]
+  sles: [python3-python-gitlab]
   ubuntu:
     '*': [python3-gitlab]
     artful:
@@ -5260,6 +5269,7 @@ python3-gnupg:
   debian: [python3-gnupg]
   fedora: [python3-gnupg]
   gentoo: [dev-python/python-gnupg]
+  sles: [python3-python-gnupg]
   ubuntu: [python3-gnupg]
 python3-ifcfg:
   debian:
@@ -5291,6 +5301,7 @@ python3-lxml:
   freebsd: [py36-lxml]
   openembedded: [python3-lxml@meta-python]
   rhel: ['python%{python3_pkgversion}-lxml']
+  sles: [python3-lxml]
   ubuntu: [python3-lxml]
 python3-matplotlib:
   arch: [python-matplotlib]
@@ -5326,6 +5337,7 @@ python3-netifaces:
   fedora: [python3-netifaces]
   gentoo: [dev-python/netifaces]
   rhel: ['python%{python3_pkgversion}-netifaces']
+  sles: [python3-netifaces]
   ubuntu: [python3-netifaces]
 python3-nose:
   debian: [python3-nose]
@@ -5344,12 +5356,14 @@ python3-numpy:
   gentoo: [dev-python/numpy]
   openembedded: [python3-numpy@openembedded-core]
   rhel: ['python%{python3_pkgversion}-numpy']
+  sles: [python3-numpy]
   ubuntu: [python3-numpy]
 python3-opencv:
   debian:
     buster: [python3-opencv]
   fedora: [python3-opencv]
   openembedded: [opencv@meta-oe]
+  sles: [python3-opencv]
   ubuntu:
     bionic: [python3-opencv]
     cosmic: [python3-opencv]
@@ -5359,16 +5373,19 @@ python3-opengl:
   debian: [python3-opengl]
   fedora: [python3-pyopengl]
   gentoo: [dev-python/pyopengl]
+  sles: [python3-opengl]
   ubuntu: [python3-opengl]
 python3-pandas:
   debian: [python3-pandas]
   fedora: [python3-pandas]
   gentoo: [dev-python/pandas]
+  sles: [python3-pandas]
   ubuntu: [python3-pandas]
 python3-paramiko:
   debian: [python3-paramiko]
   fedora: [python3-paramiko]
   gentoo: [dev-python/paramiko]
+  sles: [python3-paramiko]
   ubuntu: [python3-paramiko]
 python3-pep8:
   alpine: [py3-pycodestyle]
@@ -5379,9 +5396,11 @@ python3-pep8:
   fedora: [python3-pep8]
   gentoo: [dev-python/pep8]
   openembedded: [python3-pep8@meta-ros]
+  sles: [python3-pep8]
   ubuntu: [python3-pep8]
 python3-pexpect:
   debian: [python3-pexpect]
+  sles: [python3-pexpect]
   ubuntu: [python3-pexpect]
 python3-pil:
   alpine: [py3-pillow]
@@ -5395,6 +5414,7 @@ python3-pil:
     pip:
       packages: [Pillow]
   rhel: [python3-pillow]
+  sles: [python3-Pillow]
   slackware:
     slackpkg:
       packages: [python3-pillow]
@@ -5402,6 +5422,7 @@ python3-pil:
 python3-pip:
   debian: [python3-pip]
   fedora: [python3-pip]
+  sles: [python3-pip]
   ubuntu: [python3-pip]
 python3-pkg-resources:
   debian: [python3-pkg-resources]
@@ -5409,6 +5430,7 @@ python3-pkg-resources:
   gentoo: [dev-python/setuptools]
   openembedded: [python3-setuptools@openembedded-core]
   rhel: ['python%{python3_pkgversion}-setuptools']
+  sles: [python3-setuptools]
   ubuntu: [python3-pkg-resources]
 python3-psutil:
   alpine: [py3-psutil]
@@ -5424,6 +5446,7 @@ python3-psutil:
       packages: [psutil]
   rhel: ['python%{python3_pkgversion}-psutil']
   slackware: [psutil]
+  sles: [python3-psutil]
   ubuntu: [python3-psutil]
 python3-pyaudio:
   arch: [python-pyaudio]
@@ -5434,6 +5457,7 @@ python3-pyaudio:
     pip:
       packages: [pyaudio]
   rhel: ['python%{python3_pkgversion}-pyaudio']
+  sles: [python3-PyAudio]
   ubuntu: [python3-pyaudio]
 python3-pycodestyle:
   arch: [python-pycodestyle]
@@ -5441,6 +5465,7 @@ python3-pycodestyle:
   fedora: [python3-pycodestyle]
   gentoo: [dev-python/pycodestyle]
   rhel: ['python%{python3_pkgversion}-pycodestyle']
+  sles: [python3-pycodestyle]
   ubuntu: [python3-pycodestyle]
 python3-pycryptodome:
   alpine: [py3-pycryptodome]
@@ -5452,6 +5477,7 @@ python3-pycryptodome:
     pip:
       packages: [pycryptodome]
   rhel: ['python%{python3_pkgversion}-pycryptodomex']
+  sles: [python3-pycryptodomex]
   ubuntu: [python3-pycryptodome]
 python3-pydot:
   arch: [python-pydot]
@@ -5462,6 +5488,7 @@ python3-pydot:
   rhel:
     '*': ['python%{python3_pkgversion}-pydot']
     '7': null
+  sles: [python3-pydot]
   ubuntu: [python3-pydot]
 python3-pygraphviz:
   alpine: [py3-graphviz]
@@ -5484,6 +5511,7 @@ python3-pyparsing:
   fedora: [python3-pyparsing]
   gentoo: [dev-python/pyparsing]
   openembedded: [python3-pyparsing@meta-python]
+  sles: [python3-pyparsing]
   ubuntu: [python3-pyparsing]
 python3-pyqt5.qtwebengine:
   debian: [python3-pyqt5.qtwebengine]
@@ -5497,6 +5525,7 @@ python3-pytest:
   gentoo: [dev-python/pytest]
   openembedded: [python3-pytest@meta-python]
   rhel: ['python%{python3_pkgversion}-pytest']
+  sles: [python3-pytest]
   ubuntu: [python3-pytest]
 python3-pytest-mock:
   alpine: [py3-pytest-mock]
@@ -5507,11 +5536,13 @@ python3-pytest-mock:
   rhel:
     '*': ['python%{python3_pkgversion}-pytest-mock']
     '7': null
+  sles: [python3-pytest-mock]
   ubuntu: [python3-pytest-mock]
 python3-pytest-timeout:
   debian: [python3-pytest-timeout]
   fedora: [python3-pytest-timeout]
   gentoo: [dev-python/pytest-timeout]
+  sles: [python3-pytest-timeout]
   ubuntu: [python3-pytest-timeout]
 python3-qt5-bindings:
   alpine: [py3-qt5]
@@ -5522,11 +5553,13 @@ python3-qt5-bindings:
   opensuse: [python3-qt5]
   rhel: ['python%{python3_pkgversion}-qt5-devel']
   slackware: [python3-PyQt5]
+  sles: [python3-qt5]
   ubuntu: [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev]
 python3-qt5-bindings-gl:
   debian: [python3-pyqt5.qtopengl]
   fedora: [python3-qt5]
   gentoo: ['dev-python/PyQt5[opengl]']
+  sles: [python3-qt5]
   ubuntu: [python3-pyqt5.qtopengl]
 python3-qt5-bindings-webkit:
   debian: [python3-pyqt5.qtwebkit]
@@ -5552,6 +5585,7 @@ python3-rosdistro-modules:
   gentoo: [dev-python/rosdistro]
   openembedded: [python3-rosdistro@meta-ros]
   rhel: ['python%{python3_pkgversion}-rosdistro']
+  fedora: [python3-rosdistro]
   ubuntu: [python3-rosdistro-modules]
 python3-rospkg:
   alpine:
