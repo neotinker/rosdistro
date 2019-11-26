@@ -3664,6 +3664,7 @@ python-rosdep:
   slackware:
     pip:
       packages: [rosdep]
+  sles: [python2-rosdep]
   ubuntu:
     artful: [python-rosdep]
     bionic: [python-rosdep]
