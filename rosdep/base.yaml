@@ -2111,6 +2111,7 @@ libgpgme-dev:
   gentoo: [app-crypt/gpgme]
   openembedded: [gpgme@openembedded-core]
   rhel: [gpgme-devel]
+  sles: [libgpgme-devel]
   ubuntu:
     artful: [libgpgme-dev]
     bionic: [libgpgme-dev]
