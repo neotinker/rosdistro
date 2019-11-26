@@ -353,6 +353,7 @@ python:
   slackware:
     slackpkg:
       packages: [python]
+  sles: [python-devel]
   ubuntu:
     artful: [python-dev]
     bionic: [python-dev]
