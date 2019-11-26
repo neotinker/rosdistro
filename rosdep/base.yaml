@@ -4856,6 +4856,7 @@ sbcl:
   macports: [sbcl]
   opensuse: [sbcl]
   slackware: [sbcl]
+  sles: [sbcl]
   ubuntu: [sbcl]
 scons:
   arch: [scons]
