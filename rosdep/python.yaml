@@ -2485,6 +2485,7 @@ python-netifaces:
     pip:
       packages: [netifaces]
   slackware: [netifaces]
+  sles: [python2-netifaces]
   ubuntu:
     artful: [python-netifaces]
     bionic: [python-netifaces]
