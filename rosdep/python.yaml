@@ -5603,6 +5603,7 @@ python3-yaml:
   gentoo: [dev-python/pyyaml]
   openembedded: [python3-pyyaml@meta-python]
   rhel: ['python%{python3_pkgversion}-PyYAML']
+  sles: [python3-PyYAML]
   ubuntu: [python3-yaml]
 qdarkstyle-pip:
   debian:
