@@ -5095,6 +5095,7 @@ python3-coverage:
   debian: [python3-coverage]
   fedora: [python3-coverage]
   gentoo: [dev-python/coverage]
+  sles: [python3-coverage]
   ubuntu: [python3-coverage]
 python3-cryptography:
   debian: [python3-cryptography]
