@@ -5461,6 +5461,7 @@ python3-rosdep:
   debian: [python3-rosdep]
   fedora: [python3-rosdep]
   gentoo: [dev-util/rosdep]
+  sles: [python3-rosdep]
   ubuntu: [python3-rosdep]
 python3-rosdep-modules:
   debian: [python3-rosdep-modules]
@@ -5493,6 +5494,7 @@ python3-rospkg:
   slackware:
     pip:
       packages: [rospkg]
+  sles: [python3-rospkg]
   ubuntu: [python3-rospkg]
 python3-rospkg-modules:
   alpine:
