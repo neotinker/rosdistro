@@ -2583,6 +2583,7 @@ python-numpy:
       packages: [numpy]
   rhel: [numpy]
   slackware: [numpy]
+  sles: [python2-numpy]
   ubuntu:
     artful: [python-numpy]
     bionic: [python-numpy]
