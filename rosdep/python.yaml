@@ -5638,6 +5638,7 @@ python-wstool:
   fedora: [python-wstool]
   gentoo: [dev-python/wstool]
   macports: [py27-wstool]
+  opensuse: [python2-wstool]
   ubuntu: [python-wstool]
 python-wtforms:
   debian: [python-wtforms]
