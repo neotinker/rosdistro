@@ -4264,7 +4264,7 @@ python-rospkg:
   macports: [py27-rospkg]
   nixos: [pythonPackages.rospkg]
   openembedded: ['${PYTHON_PN}-rospkg@meta-ros-common']
-  opensuse: [python-rospkg]
+  opensuse: [python2-rospkg]
   osx:
     pip:
       packages: [rospkg]
