@@ -1007,6 +1007,7 @@ python-catkin-pkg-modules:
   ubuntu: [python-catkin-pkg-modules]
 python-catkin-sphinx:
   fedora: [python-catkin-sphinx]
+  opensuse: [python3-catkin-sphinx]
   osx:
     pip:
       packages: [catkin_sphinx]
