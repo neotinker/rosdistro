@@ -7592,6 +7592,7 @@ python3-rosdistro-modules:
   rhel: ['python%{python3_pkgversion}-rosdistro']
   ubuntu: [python3-rosdistro-modules]
 python3-rosinstall-generator:
+  opensuse: [python3-rosinstall-generator]
   ubuntu: [python3-rosinstall-generator]
 python3-rospkg:
   alpine: [py3-rospkg]
