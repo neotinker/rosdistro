@@ -4246,6 +4246,7 @@ python-rosinstall-generator:
   fedora: [python-rosinstall_generator]
   gentoo: [dev-python/rosinstall_generator]
   macports: [py27-rosinstall-generator]
+  opensuse: [python2-rosinstall-generator]
   rhel:
     '7': [python2-rosinstall_generator]
   ubuntu: [python-rosinstall-generator]
