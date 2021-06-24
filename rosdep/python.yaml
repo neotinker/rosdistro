@@ -4288,6 +4288,7 @@ python-rosinstall:
   fedora: [python-rosinstall]
   gentoo: [dev-python/rosinstall]
   macports: [p27-rosinstall]
+  opensuse: [python2-rosinstall]
   rhel:
     '7': [python-rosinstall]
   ubuntu:
