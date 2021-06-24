@@ -8024,6 +8024,7 @@ python3-rosdep:
   debian: [python3-rosdep]
   fedora: [python3-rosdep]
   gentoo: [dev-util/rosdep]
+  opensuse: [python3-rosdep]
   rhel: ['python%{python3_pkgversion}-rosdep']
   ubuntu: [python3-rosdep]
 python3-rosdep-modules:
