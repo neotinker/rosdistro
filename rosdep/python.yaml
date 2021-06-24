@@ -4138,7 +4138,7 @@ python-rosdep:
   gentoo: [dev-util/rosdep]
   nixos: [pythonPackages.rosdep]
   openembedded: ['${PYTHON_PN}-rosdep@meta-ros-common']
-  opensuse: [python-rosdep]
+  opensuse: [python2-rosdep]
   osx:
     pip:
       packages: [rosdep]
