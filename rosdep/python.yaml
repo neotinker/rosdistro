@@ -8675,6 +8675,7 @@ python3-vcstool:
   macports:
     pip:
       packages: [vcstool]
+  opensuse: [python3-vcstool]
   osx:
     pip:
       packages: [vcstool]
