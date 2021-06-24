@@ -5405,6 +5405,7 @@ python-vcstool:
     buster: [python-vcstool]
     stretch: [python-vcstool]
   fedora: [python-vcstool]
+  opensuse: [python3-vcstool]
   ubuntu: [python-vcstool]
 python-vcstools:
   debian:
