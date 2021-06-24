@@ -5454,6 +5454,7 @@ python-vcstools:
   fedora: [python-vcstools]
   gentoo: [dev-python/vcstools]
   macports: [py27-vcstools]
+  opensuse: [python2-vcstools]
 python-vedo-pip:
   debian:
     pip:
