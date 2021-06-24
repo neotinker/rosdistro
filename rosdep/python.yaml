@@ -749,6 +749,7 @@ python-bloom:
   debian: [python-bloom]
   fedora: [python-bloom]
   gentoo: [dev-python/bloom]
+  opensuse: [python3-bloom]
   ubuntu:
     '*': [python-bloom]
     trusty_python3: [python3-bloom]
