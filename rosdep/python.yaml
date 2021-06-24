@@ -4253,6 +4253,7 @@ python-rosdistro:
   debian: [python-rosdistro]
   fedora: [python-rosdistro]
   gentoo: [dev-python/rosdistro]
+  opensuse: [python2-rosdistro]
   osx:
     macports: [py27-rosdistro]
     pip:
