@@ -3104,6 +3104,7 @@ libgazebo9-dev:
     '31': [gazebo-devel]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
+  opensuse: [gazebo9-devel]
   ubuntu:
     artful: [libgazebo9-dev]
     bionic: [libgazebo9-dev]
