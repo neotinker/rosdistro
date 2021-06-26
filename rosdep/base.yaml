@@ -4348,7 +4348,7 @@ libpcl-all:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
-  opensuse: [pcl]
+  opensuse: [libpcl1.9, pcl-tools]
   rhel: [pcl, pcl-tools]
   slackware: [pcl]
   ubuntu:
