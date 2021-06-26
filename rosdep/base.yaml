@@ -3225,6 +3225,7 @@ libgazebo9-dev:
     stretch: [libgazebo9-dev]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
+  opensuse: [gazebo9-devel]
   ubuntu:
     artful: [libgazebo9-dev]
     bionic: [libgazebo9-dev]
