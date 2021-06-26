@@ -4238,7 +4238,7 @@ libpcl-all-dev:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
-  opensuse: [pcl]
+  opensuse: [pcl-devel]
   rhel: [pcl-devel]
   slackware: [pcl]
   ubuntu:
