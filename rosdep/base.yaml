@@ -5311,7 +5311,7 @@ liburdfdom-headers-dev:
   gentoo: [dev-libs/urdfdom_headers]
   nixos: [urdfdom-headers]
   openembedded: [urdfdom-headers@meta-ros1]
-  opensuse: [urdfdom-headers-devel]
+  opensuse: [urdfdom_headers-devel]
   rhel: [urdfdom-headers-devel]
   slackware: [urdfdom_headers]
   ubuntu: [liburdfdom-headers-dev]
