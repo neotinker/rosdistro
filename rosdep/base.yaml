@@ -2743,7 +2743,7 @@ libconsole-bridge-dev:
   gentoo: [dev-libs/console_bridge]
   nixos: [console-bridge]
   openembedded: [console-bridge@meta-ros-common]
-  opensuse: [libconsole_bridge0]
+  opensuse: [libconsole_bridge0_4]
   rhel: [console-bridge-devel]
   slackware: [console_bridge]
   ubuntu: [libconsole-bridge-dev]
