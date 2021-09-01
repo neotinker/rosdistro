@@ -8041,6 +8041,7 @@ python3-rosdep-modules:
   gentoo: [dev-util/rosdep]
   nixos: [python3Packages.rosdep]
   openembedded: [python3-rosdep@meta-ros-common]
+  opensuse: [python3-rosdep]
   rhel: ['python%{python3_pkgversion}-rosdep']
   ubuntu: [python3-rosdep-modules]
 python3-rosdistro-modules:
