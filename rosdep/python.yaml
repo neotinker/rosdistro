@@ -6004,6 +6004,7 @@ python3-catkin-pkg:
   gentoo: [dev-python/catkin_pkg]
   nixos: [python3Packages.catkin-pkg]
   openembedded: [python3-catkin-pkg@meta-ros-common]
+  opensuse: [python3-catkin_pkg]
   rhel: ['python%{python3_pkgversion}-catkin_pkg']
   ubuntu: [python3-catkin-pkg]
 python3-catkin-pkg-modules:
