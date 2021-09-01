@@ -4295,7 +4295,7 @@ python-rospkg-modules:
   gentoo: [dev-python/rospkg]
   macports: [py27-rospkg]
   nixos: [pythonPackages.rospkg]
-  opensuse: [python-rospkg]
+  opensuse: [python2-rospkg]
   osx:
     pip:
       packages: [rospkg]
