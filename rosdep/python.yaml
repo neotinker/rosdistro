@@ -6014,6 +6014,7 @@ python3-catkin-pkg-modules:
   gentoo: [dev-python/catkin_pkg]
   nixos: [python3Packages.catkin-pkg]
   openembedded: [python3-catkin-pkg@meta-ros-common]
+  opensuse: [python3-catkin_pkg]
   osx:
     pip:
       packages: [catkin-pkg]
