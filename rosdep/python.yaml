@@ -997,7 +997,7 @@ python-catkin-pkg-modules:
   macports: [python-catkin-pkg]
   nixos: [pythonPackages.catkin-pkg]
   openembedded: ['${PYTHON_PN}-catkin-pkg@meta-ros-common']
-  opensuse: [python-catkin_pkg]
+  opensuse: [python2-catkin_pkg]
   osx:
     pip:
       packages: [catkin-pkg]
