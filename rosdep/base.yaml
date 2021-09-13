@@ -5789,6 +5789,7 @@ log4cxx:
   opensuse: [liblog4cxx-devel]
   rhel: [log4cxx-devel]
   slackware: [apache-log4cxx]
+  sles: [liblog4cxx-devel]
   ubuntu:
     '*': [liblog4cxx-dev]
     lucid: [liblog4cxx10-dev]
