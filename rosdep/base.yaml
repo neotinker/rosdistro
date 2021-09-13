@@ -570,6 +570,7 @@ cmake:
   slackware:
     slackpkg:
       packages: [cmake]
+  sles: [cmake]
   ubuntu: [cmake]
 coinor-libcbc-dev:
   debian: [coinor-libcbc-dev]
