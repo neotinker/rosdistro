@@ -3416,6 +3416,7 @@ python-psutil:
       packages: [psutil]
   rhel: [python2-psutil]
   slackware: [psutil]
+  sles: [python2-psutil]
   ubuntu:
     '*': [python-psutil]
     trusty_python3: [python3-psutil]
