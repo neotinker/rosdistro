@@ -2761,7 +2761,7 @@ libconsole-bridge-dev:
   opensuse: [libconsole_bridge0]
   rhel: [console-bridge-devel]
   slackware: [console_bridge]
-  sles: [libconsole_bridge0]
+  sles: [libconsole_bridge0_4]
   ubuntu: [libconsole-bridge-dev]
 libcos4-dev:
   debian: [libcos4-dev]
