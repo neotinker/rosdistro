@@ -5226,6 +5226,7 @@ liburdfdom-dev:
   opensuse: [urdfdom-devel]
   rhel: [urdfdom-devel]
   slackware: [urdfdom]
+  sles: [urdfdom-devel]
   ubuntu: [liburdfdom-dev]
 liburdfdom-headers-dev:
   arch: [urdfdom-headers]
