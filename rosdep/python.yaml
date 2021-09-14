@@ -3597,6 +3597,7 @@ python-pygraphviz:
   rhel:
     '7': [python2-pygraphviz]
   slackware: [pygraphviz]
+  sles: [python2-pygraphviz]
   ubuntu: [python-pygraphviz]
 python-pyinotify:
   debian: [python-pyinotify]
