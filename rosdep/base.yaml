@@ -6442,6 +6442,7 @@ pkg-config:
   slackware:
     slackpkg:
       packages: [pkg-config]
+  sles: [pkg-config]
   ubuntu: [pkg-config]
 pmount:
   arch:
