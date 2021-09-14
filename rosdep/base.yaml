@@ -105,6 +105,7 @@ apr:
   slackware:
     slackpkg:
       packages: [apr, apr-util]
+  sles: [libapr1, libapr-util1]
   ubuntu: [libapr1-dev, libaprutil1-dev]
 apt-transport-https:
   debian: [apt-transport-https]
