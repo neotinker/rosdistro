@@ -6318,6 +6318,7 @@ opengl:
   slackware:
     slackpkg:
       packages: [mesa]
+  sles: [Mesa-devel]
   ubuntu: [libgl1-mesa-dev, libglu1-mesa-dev]
 openjdk-6-jdk:
   arch: [openjdk6]
