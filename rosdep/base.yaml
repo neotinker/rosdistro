@@ -190,6 +190,7 @@ assimp-dev:
   opensuse: [assimp-devel]
   rhel: [assimp-devel]
   slackware: [assimp]
+  sles: [assimp-devel]
   ubuntu:
     '*': [libassimp-dev]
     lucid: [assimp-dev]
