@@ -699,6 +699,7 @@ cppunit:
   opensuse: [cppunit-devel]
   rhel: [cppunit-devel]
   slackware: [cppunit]
+  sles: [cppunit-devel]
   ubuntu: [libcppunit-dev]
 cpuburn:
   arch: [cpuburn]
