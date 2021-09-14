@@ -725,6 +725,7 @@ curl:
   slackware:
     slackpkg:
       packages: [curl]
+  sles: [libcurl-devel, curl]
   ubuntu: [libcurl4-openssl-dev, curl]
 curlpp-dev:
   debian: [libcurlpp-dev]
