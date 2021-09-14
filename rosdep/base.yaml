@@ -3009,6 +3009,7 @@ libfltk-dev:
   opensuse: [fltk-devel]
   rhel: [fltk-devel]
   slackware: [fltk]
+  sles: [fltk-devel]
   ubuntu:
     artful: [libfltk1.3-dev]
     bionic: [libfltk1.3-dev]
