@@ -1519,6 +1519,7 @@ graphviz:
   opensuse: [graphviz]
   rhel: [graphviz]
   slackware: [graphviz]
+  sles: [graphviz]
   ubuntu: [graphviz]
 graphviz-dev:
   debian: [libgraphviz-dev]
