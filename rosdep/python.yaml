@@ -976,6 +976,7 @@ python-catkin-pkg-modules:
   slackware:
     pip:
       packages: [catkin-pkg]
+  sles: [python2-catkin_pkg]
   ubuntu: [python-catkin-pkg-modules]
 python-catkin-sphinx:
   fedora: [python-catkin-sphinx]
