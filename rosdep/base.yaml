@@ -2337,6 +2337,7 @@ libboost-date-time-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_date_time1_66_0-devel]
   rhel: [boost-devel]
+  sles: [libboost_date_time1_66_0-devel]
   ubuntu: [libboost-date-time-dev]
 libboost-dev:
   debian: [libboost-dev]
