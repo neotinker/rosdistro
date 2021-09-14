@@ -4266,6 +4266,7 @@ libpcl-all-dev:
   opensuse: [pcl]
   rhel: [pcl-devel]
   slackware: [pcl]
+  sles: [pcl]
   ubuntu:
     artful: [libpcl-dev]
     bionic: [libpcl-dev]
