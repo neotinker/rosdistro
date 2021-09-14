@@ -1747,6 +1747,7 @@ hddtemp:
   opensuse: [hddtemp]
   rhel: [hddtemp]
   slackware: [hddtemp]
+  sles: [hddtemp]
   ubuntu: [hddtemp]
 hdf5:
   arch: [hdf5-cpp-fortran]
