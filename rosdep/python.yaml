@@ -2647,6 +2647,7 @@ python-mock:
       packages: [mock]
   rhel: [python2-mock]
   slackware: [mock]
+  sles: [python2-mock]
   ubuntu:
     artful: [python-mock]
     bionic: [python-mock]
