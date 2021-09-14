@@ -6906,6 +6906,7 @@ sbcl:
   opensuse: [sbcl]
   rhel: [sbcl]
   slackware: [sbcl]
+  sles: [sbcl]
   ubuntu: [sbcl]
 scons:
   arch: [scons]
