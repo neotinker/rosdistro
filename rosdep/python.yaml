@@ -539,6 +539,7 @@ python-argparse:
   slackware:
     pip:
       packages: [argparse]
+  sles: [python]
   ubuntu:
     '*': []
     lucid: [python-argparse]
