@@ -3628,6 +3628,7 @@ libjpeg:
   opensuse: [libjpeg8-devel]
   rhel: [libjpeg-turbo-devel]
   slackware: [libjpeg-turbo]
+  sles: [libjpeg8-devel]
   ubuntu:
     artful: [libjpeg-dev]
     bionic: [libjpeg-dev]
