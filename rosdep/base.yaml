@@ -4087,6 +4087,7 @@ libopencv-dev:
   openembedded: [opencv@meta-oe]
   opensuse: [opencv-devel]
   rhel: [opencv-devel]
+  sles: [opencv-devel]
   ubuntu: [libopencv-dev]
 libopencv-imgproc-dev:
   arch: [opencv]
