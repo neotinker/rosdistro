@@ -4025,6 +4025,7 @@ python-qt5-bindings:
   openembedded: ['${PYTHON_PN}-pyqt5@meta-qt5']
   opensuse: [python2-qt5]
   slackware: [PyQt5]
+  sles: [python2-qt5]
   ubuntu:
     artful: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev]
     bionic: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev]
