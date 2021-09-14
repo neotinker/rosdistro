@@ -2579,6 +2579,7 @@ libboost-system-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_system1_66_0-devel]
   rhel: [boost-devel]
+  sles: [libboost_system1_66_0-devel]
   ubuntu: [libboost-system-dev]
 libboost-thread:
   debian:
