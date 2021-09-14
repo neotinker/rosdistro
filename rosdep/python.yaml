@@ -4200,6 +4200,7 @@ python-rosdep-modules:
   slackware:
     pip:
       packages: [rosdep]
+  sles: [python2-rosdep]
   ubuntu: [python-rosdep-modules]
 python-rosdistro:
   debian: [python-rosdistro]
