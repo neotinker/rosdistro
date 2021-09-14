@@ -1231,6 +1231,7 @@ gazebo9:
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
   openembedded: []
+  sles: [gazebo9]
   ubuntu:
     artful: [gazebo9]
     bionic: [gazebo9]
