@@ -438,6 +438,7 @@ bzip2:
   slackware:
     slackpkg:
       packages: [bzip2]
+  sles: [libbz2-devel]
   ubuntu: [libbz2-dev]
 ca-certificates:
   arch: [ca-certificates]
