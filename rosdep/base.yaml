@@ -4690,6 +4690,7 @@ libqt5-opengl-dev:
   opensuse: [libQt5OpenGL-devel]
   rhel: [qt5-qtbase-devel]
   slackware: [qt5]
+  sles: [libQt5OpenGL-devel]
   ubuntu: [libqt5opengl5-dev]
 libqt5-printsupport:
   arch: [qt5-base]
