@@ -4317,6 +4317,7 @@ python-rospkg-modules:
   slackware:
     pip:
       packages: [rospkg]
+  sles: [python2-rospkg]
   ubuntu: [python-rospkg-modules]
 python-rpi.gpio:
   debian:
