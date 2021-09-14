@@ -2261,6 +2261,7 @@ python-imaging:
   slackware:
     slackpkg:
       packages: [python-pillow]
+  sles: [python2-Pillow]
   ubuntu:
     '*': [python-pil]
     artful: [python-imaging]
