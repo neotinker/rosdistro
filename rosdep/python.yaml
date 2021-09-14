@@ -934,6 +934,7 @@ python-catkin-pkg:
   slackware:
     pip:
       packages: [catkin-pkg]
+  sles: [python2-catkin_pkg]
   ubuntu:
     artful: [python-catkin-pkg]
     bionic: [python-catkin-pkg]
