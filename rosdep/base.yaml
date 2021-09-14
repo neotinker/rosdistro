@@ -6773,6 +6773,7 @@ qtbase5-dev:
   opensuse: [libqt5-qtbase-common-devel, libqt5-qtbase-devel]
   rhel: [qt5-qtbase-devel]
   slackware: [qt5]
+  sles: [libqt5-qtbase-common-devel, libqt5-qtbase-devel]
   ubuntu: [qtbase5-dev]
 qtbase5-private-dev:
   debian: [qtbase5-private-dev]
