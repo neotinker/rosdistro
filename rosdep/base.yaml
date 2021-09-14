@@ -6774,6 +6774,7 @@ qt5-qmake:
   opensuse: [libqt5-qtbase-common-devel]
   rhel: [qt5-qtbase-devel]
   slackware: [qt5]
+  sles: [libqt5-qtbase-common-devel]
   ubuntu: [qt5-qmake]
 qtbase5-dev:
   alpine: [qt5-qtbase-dev]
