@@ -4523,6 +4523,7 @@ python-setuptools:
     pip:
       packages: [setuptools]
   rhel: [python2-setuptools]
+  sles: [python2-setuptools]
   ubuntu:
     artful: [python-setuptools]
     bionic: [python-setuptools]
