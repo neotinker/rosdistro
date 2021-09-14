@@ -5132,6 +5132,7 @@ libtool:
   opensuse: [libtool, libltdl7]
   rhel: [libtool, libtool-ltdl-devel]
   slackware: [libtool]
+  sles: [libtool, libltdl7]
   ubuntu:
     artful: [libtool, libltdl-dev, libtool-bin]
     bionic: [libtool, libltdl-dev, libtool-bin]
