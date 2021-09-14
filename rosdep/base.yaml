@@ -4968,6 +4968,7 @@ libssl-dev:
   openembedded: [openssl@openembedded-core]
   opensuse: [libopenssl-devel]
   rhel: [openssl-devel]
+  sles: [libopenssl-devel]
   ubuntu: [libssl-dev]
 libstdc++5:
   arch: [libstdc++5]
