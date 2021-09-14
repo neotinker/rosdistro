@@ -1532,6 +1532,7 @@ python-empy:
   slackware:
     pip:
       packages: [empy]
+  sles: [python2-empy]
   ubuntu: [python-empy]
 python-enum:
   debian:
