@@ -5735,6 +5735,7 @@ python-yaml:
     '*': [python2-pyyaml]
     '7': [PyYAML]
   slackware: [PyYAML]
+  sle: [python2-PyYAML]
   ubuntu:
     artful: [python-yaml]
     bionic: [python-yaml]
