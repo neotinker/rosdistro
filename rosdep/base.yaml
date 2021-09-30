@@ -2376,6 +2376,7 @@ libboost-filesystem-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_filesystem1_66_0-devel]
   rhel: [boost-devel]
+  sle: [libboost_filesystem1_66_0-devel]
   ubuntu: [libboost-filesystem-dev]
 libboost-iostreams:
   debian:
