@@ -901,6 +901,7 @@ eigen:
   slackware:
     slackpkg:
       packages: [eigen3]
+  sle: [eigen3-devel]
   ubuntu: [libeigen3-dev]
 eigen2:
   arch: [eigen2]
