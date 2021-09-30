@@ -3980,6 +3980,7 @@ libogg:
   opensuse: [libogg-devel]
   rhel: [libogg-devel]
   slackware: [libogg]
+  sle: [libogg-devel]
   ubuntu: [libogg-dev]
 libogre:
   arch: [ogre-1.9]
