@@ -1441,6 +1441,7 @@ google-mock:
   openembedded: [gtest@meta-oe]
   opensuse: [gmock]
   rhel: [gmock-devel]
+  sle: [gmock]
   ubuntu: [google-mock]
 gpac:
   debian: [gpac]
