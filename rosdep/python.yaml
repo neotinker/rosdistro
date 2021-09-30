@@ -5666,6 +5666,7 @@ python-wxtools:
   opensuse: [python-wxWidgets-3_0-devel]
   rhel:
     '7': [wxPython]
+  sle: [python-wxWidgets-3_0-devel]
   ubuntu: [python-wxtools]
 python-xdot:
   debian: [xdot]
