@@ -5257,6 +5257,7 @@ liburdfdom-headers-dev:
   opensuse: [urdfdom-headers-devel]
   rhel: [urdfdom-headers-devel]
   slackware: [urdfdom_headers]
+  sle: [urdfdom-headers-devel]
   ubuntu: [liburdfdom-headers-dev]
 liburdfdom-tools:
   arch: [urdfdom]
