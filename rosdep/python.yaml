@@ -2635,6 +2635,7 @@ python-matplotlib:
   rhel:
     '7': [python-matplotlib]
   slackware: [matplotlib]
+  sle: [python2-matplotlib]
   ubuntu:
     artful: [python-matplotlib]
     bionic: [python-matplotlib]
