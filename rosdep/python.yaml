@@ -3063,6 +3063,7 @@ python-opengl:
   rhel:
     '7': [PyOpenGL]
   slackware: [PyOpenGL]
+  sle: [python2-opengl]
   ubuntu:
     artful: [python-opengl]
     bionic: [python-opengl]
