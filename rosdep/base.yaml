@@ -4382,6 +4382,7 @@ libpoco-dev:
   opensuse: [poco-devel]
   rhel: [poco-devel]
   slackware: [poco]
+  sle: [poco-devel]
   ubuntu: [libpoco-dev]
 libpocofoundation9:
   debian: [libpocofoundation9]
