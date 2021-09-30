@@ -1523,6 +1523,7 @@ graphviz:
   opensuse: [graphviz]
   rhel: [graphviz]
   slackware: [graphviz]
+  sle: [graphviz]
   ubuntu: [graphviz]
 graphviz-dev:
   debian: [libgraphviz-dev]
