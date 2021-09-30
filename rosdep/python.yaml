@@ -1430,6 +1430,7 @@ python-defusedxml:
   slackware:
     pip:
       packages: [defusedxml]
+  sle: [python2-defusedxml]
   ubuntu: [python-defusedxml]
 python-dialogflow-pip:
   arch:
