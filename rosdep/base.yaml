@@ -7969,6 +7969,7 @@ yaml-cpp:
   opensuse: [yaml-cpp-devel]
   rhel: [yaml-cpp-devel]
   slackware: [yaml-cpp]
+  sle: [yaml-cpp-devel]
   ubuntu:
     artful: [libyaml-cpp-dev]
     bionic: [libyaml-cpp-dev]
