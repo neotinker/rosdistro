@@ -2546,6 +2546,7 @@ libboost-regex-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_regex1_66_0-devel]
   rhel: [boost-devel]
+  sle: [libboost_regex1_66_0-devel]
   ubuntu: [libboost-regex-dev]
 libboost-serialization:
   debian:
