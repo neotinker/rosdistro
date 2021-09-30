@@ -3046,6 +3046,7 @@ python-opencv:
   rhel:
     '7': [opencv-python]
   slackware: [opencv]
+  sle: [python2-opencv]
   ubuntu: [python-opencv]
 python-opengl:
   arch: [python2-opengl]
