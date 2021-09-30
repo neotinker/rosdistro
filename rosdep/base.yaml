@@ -7469,6 +7469,7 @@ texlive-latex-extra:
   fedora: [texlive-titlesec, texlive-wrapfig, texlive-multirow, texlive-fancybox]
   gentoo: [dev-texlive/texlive-latexextra]
   opensuse: [texlive-titlesec, texlive-wrapfig, texlive-multirow, texlive-fancybox]
+  sle: [texlive-titlesec, texlive-wrapfig, texlive-multirow, texlive-fancybox]
   ubuntu: [texlive-latex-extra]
 texlive-latex-recommended:
   arch: [texlive-core]
