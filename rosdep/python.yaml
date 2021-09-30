@@ -824,6 +824,7 @@ python-cairo:
   slackware:
     slackpkg:
       packages: [pycairo]
+  sle: [python2-cairo]
   ubuntu: [python-cairo]
 python-cairosvg:
   arch: [python2-cairosvg]
