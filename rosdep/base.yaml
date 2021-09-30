@@ -574,6 +574,7 @@ cmake:
   slackware:
     slackpkg:
       packages: [cmake]
+  sle: [cmake]
   ubuntu: [cmake]
 coinor-libcbc-dev:
   debian: [coinor-libcbc-dev]
