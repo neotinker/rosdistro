@@ -1224,6 +1224,7 @@ python-coverage:
     '*': [python2-coverage]
     '7': [python-coverage]
   slackware: [coverage]
+  sle: [python2-coverage]
   ubuntu:
     artful: [python-coverage]
     bionic: [python-coverage]
