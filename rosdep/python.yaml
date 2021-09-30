@@ -2920,6 +2920,7 @@ python-nose:
       packages: [nose]
   rhel: [python2-nose]
   slackware: [nose]
+  sle: [python2-nose]
   ubuntu:
     '*': [python-nose]
     trusty_python3: [python3-nose]
