@@ -7384,6 +7384,7 @@ tango-icon-theme:
   rhel:
     '7': [tango-icon-theme]
   slackware: [tango-icon-theme]
+  sle: [tango-icon-theme]
   ubuntu: [tango-icon-theme]
 tap-plugins:
   debian: [tap-plugins]
