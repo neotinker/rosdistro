@@ -3569,6 +3569,7 @@ python-pydot:
   rhel:
     '7': [python2-pydot]
   slackware: [pydot]
+  sle: [python2-pydot]
   ubuntu: [python-pydot]
 python-pyexiv2:
   debian: [python-pyexiv2]
