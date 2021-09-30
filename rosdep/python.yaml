@@ -3172,6 +3172,7 @@ python-paramiko:
   rhel:
     '7': [python-paramiko]
   slackware: [paramiko]
+  sle: [python2-paramiko]
   ubuntu: [python-paramiko]
 python-parse:
   debian: [python-parse]
