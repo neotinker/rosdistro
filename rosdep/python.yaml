@@ -2862,6 +2862,7 @@ python-netifaces:
   rhel:
     '7': [python-netifaces]
   slackware: [netifaces]
+  sle: [python2-netifaces]
   ubuntu:
     artful: [python-netifaces]
     bionic: [python-netifaces]
