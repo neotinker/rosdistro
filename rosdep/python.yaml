@@ -4665,6 +4665,7 @@ python-sip:
   slackware:
     slackpkg:
       packages: [sip]
+  sle: [python2-sip-devel]
   ubuntu:
     '*': [python-sip-dev]
     bionic_python3: [python3-sip-dev]
