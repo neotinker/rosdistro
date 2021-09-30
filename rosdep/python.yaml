@@ -3535,6 +3535,7 @@ python-pycryptodome:
     pip:
       packages: [pycryptodome]
   rhel: [python2-pycryptodomex]
+  sle: [python2-pycryptodomex]
   ubuntu: [python-pycryptodome]
 python-pycurl:
   debian: [python-pycurl]
