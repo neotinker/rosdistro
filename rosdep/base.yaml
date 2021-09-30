@@ -4658,6 +4658,7 @@ libqt5-gui:
   opensuse: [libQt5Gui5]
   rhel: [qt5-qtbase-gui]
   slackware: [qt5]
+  sle: [libQt5Gui5]
   ubuntu: [libqt5gui5]
 libqt5-multimedia:
   debian: [libqt5multimedia5]
