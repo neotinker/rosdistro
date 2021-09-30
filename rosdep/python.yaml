@@ -2947,6 +2947,7 @@ python-numpy:
       packages: [numpy]
   rhel: [python2-numpy]
   slackware: [numpy]
+  sle: [python2-numpy-devel]
   ubuntu:
     artful: [python-numpy]
     bionic: [python-numpy]
