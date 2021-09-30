@@ -4195,6 +4195,7 @@ python-rosdep:
   slackware:
     pip:
       packages: [rosdep]
+  sle: [python2-rosdep]
   ubuntu:
     artful: [python-rosdep]
     bionic: [python-rosdep]
