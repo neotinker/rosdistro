@@ -7520,6 +7520,7 @@ tinyxml2:
   openembedded: [libtinyxml2@meta-oe]
   opensuse: [tinyxml2-devel]
   rhel: [tinyxml2-devel]
+  sle: [tinyxml2-devel]
   ubuntu: [libtinyxml2-dev]
 tix:
   arch: [tix]
