@@ -411,6 +411,7 @@ python:
   slackware:
     slackpkg:
       packages: [python]
+  sle: [python-devel]
   ubuntu:
     artful: [python-dev]
     bionic: [python-dev]
