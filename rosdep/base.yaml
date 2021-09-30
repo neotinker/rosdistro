@@ -6500,6 +6500,7 @@ pkg-config:
   slackware:
     slackpkg:
       packages: [pkg-config]
+  sle: [pkg-config]
   ubuntu: [pkg-config]
 pmount:
   arch:
