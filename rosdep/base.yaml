@@ -7686,6 +7686,7 @@ uuid:
   slackware:
     slackpkg:
       packages: [util-linux]
+  sle: [libuuid-devel]
   ubuntu: [uuid-dev]
 uvcdynctrl:
   debian: [uvcdynctrl]
