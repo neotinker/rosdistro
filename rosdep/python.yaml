@@ -4078,6 +4078,7 @@ python-qt5-bindings-gl:
   openembedded: ['${PYTHON_PN}-pyqt5@meta-qt5']
   opensuse: [python2-qt5]
   slackware: [PyQt5]
+  sle: [python2-qt5]
   ubuntu:
     artful: [python-pyqt5.qtopengl]
     bionic: [python-pyqt5.qtopengl]
