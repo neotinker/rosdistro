@@ -5905,6 +5905,7 @@ lz4:
   opensuse: [liblz4-devel]
   rhel: [lz4-devel]
   slackware: [lz4]
+  sle: [liblz4-devel]
   ubuntu: [liblz4-dev]
 m4:
   arch: [m4]
