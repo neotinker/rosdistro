@@ -5078,6 +5078,7 @@ libtheora:
   slackware:
     slackpkg:
       packages: [libtheora]
+  sle: [libtheora-devel]
   ubuntu: [libtheora-dev]
 libtiff-dev:
   arch: [libtiff]
