@@ -1943,6 +1943,7 @@ python-gnupg:
   opensuse: [python2-python-gnupg]
   rhel:
     '7': [python2-gnupg]
+  sle: [python2-python-gnupg]
   ubuntu: [python-gnupg]
 python-google-cloud-bigquery-pip:
   debian:
