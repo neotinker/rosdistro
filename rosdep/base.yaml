@@ -1705,6 +1705,7 @@ gtk2:
   slackware:
     slackpkg:
       packages: [gtk+2]
+  sle: [gtk2-devel]
   ubuntu: [libgtk2.0-dev]
 gtk3:
   arch: [gtk3]
