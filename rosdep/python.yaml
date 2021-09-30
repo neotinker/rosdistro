@@ -1535,9 +1535,10 @@ python-empy:
       packages: [empy]
   rhel:
     '7': [python2-empy]
-  slackware:
+    slackware:
     pip:
       packages: [empy]
+  sle: [python2-empy]
   ubuntu: [python-empy]
 python-enum:
   debian:
