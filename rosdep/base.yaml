@@ -7507,6 +7507,7 @@ tinyxml:
   opensuse: [tinyxml-devel]
   rhel: [tinyxml-devel]
   slackware: [tinyxml]
+  sle: [tinyxml-devel]
   ubuntu: [libtinyxml-dev]
 tinyxml2:
   alpine: [tinyxml2-dev]
