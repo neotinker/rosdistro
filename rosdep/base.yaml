@@ -5324,6 +5324,7 @@ liburdfdom-tools:
   gentoo: [dev-libs/urdfdom]
   nixos: [urdfdom]
   openembedded: [urdfdom@meta-ros1]
+  opensuse: [urdfdom]
   rhel: [urdfdom]
   slackware: [urdfdom]
   ubuntu: [liburdfdom-tools]
