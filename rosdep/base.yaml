@@ -3021,6 +3021,7 @@ libfcl-dev:
   gentoo: [sci-libs/fcl]
   nixos: [fcl]
   openembedded: [fcl@meta-ros-common]
+  opensuse: [fcl-devel]
   rhel:
     '*': [fcl-devel]
     '7': null
