@@ -105,6 +105,7 @@ apr:
   slackware:
     slackpkg:
       packages: [apr, apr-util]
+  sles: [libapr1, libapr-util1]
   ubuntu: [libapr1-dev, libaprutil1-dev]
 apt-transport-https:
   debian: [apt-transport-https]
@@ -189,6 +190,7 @@ assimp-dev:
   opensuse: [assimp-devel]
   rhel: [assimp-devel]
   slackware: [assimp]
+  sles: [assimp-devel]
   ubuntu:
     '*': [libassimp-dev]
     lucid: [assimp-dev]
@@ -387,6 +389,7 @@ boost:
   slackware:
     slackpkg:
       packages: [boost]
+  sles: [libboost_atomic1_66_0-devel, libboost_headers1_66_0-devel, libboost_system1_66_0-devel, libboost_thread1_66_0-devel, libboost_chrono1_66_0-devel, libboost_date_time1_66_0-devel, libboost_serialization1_66_0-devel, libboost_filesystem1_66_0-devel, libboost_program_options1_66_0-devel, libboost_python-py2_7-1_66_0-devel, libboost_python-py3-1_66_0-devel, libboost_signals1_66_0-devel, libboost_regex1_66_0-devel, libboost_iostreams1_66_0-devel]
   ubuntu:
     '*': [libboost-all-dev]
     lucid: [libboost1.40-all-dev]
@@ -436,6 +439,7 @@ bzip2:
   slackware:
     slackpkg:
       packages: [bzip2]
+  sles: [libbz2-devel]
   ubuntu: [libbz2-dev]
 ca-certificates:
   arch: [ca-certificates]
@@ -570,6 +574,7 @@ cmake:
   slackware:
     slackpkg:
       packages: [cmake]
+  sles: [cmake]
   ubuntu: [cmake]
 coinor-libcbc-dev:
   debian: [coinor-libcbc-dev]
@@ -695,6 +700,7 @@ cppunit:
   opensuse: [cppunit-devel]
   rhel: [cppunit-devel]
   slackware: [cppunit]
+  sles: [cppunit-devel]
   ubuntu: [libcppunit-dev]
 cpuburn:
   arch: [cpuburn]
@@ -721,6 +727,7 @@ curl:
   slackware:
     slackpkg:
       packages: [curl]
+  sles: [libcurl-devel, curl]
   ubuntu: [libcurl4-openssl-dev, curl]
 curlpp-dev:
   debian: [libcurlpp-dev]
@@ -853,6 +860,7 @@ dvipng:
   fedora: [texlive-dvipng-bin]
   gentoo: [app-text/dvipng]
   opensuse: [texlive-dvipng-bin]
+  sles: [texlive-dvipng-bin]
   ubuntu: [dvipng]
 eclipse:
   arch: [eclipse, eclipse-rcp, eclipse-emf, eclipse-pde]
@@ -893,6 +901,7 @@ eigen:
   slackware:
     slackpkg:
       packages: [eigen3]
+  sles: [eigen3-devel]
   ubuntu: [libeigen3-dev]
 eigen2:
   arch: [eigen2]
@@ -1225,6 +1234,7 @@ gazebo9:
   nixos: [gazebo_9]
   openembedded: []
   opensuse: [gazebo9]
+  sles: [gazebo9]
   ubuntu:
     artful: [gazebo9]
     bionic: [gazebo9]
@@ -1432,6 +1442,7 @@ google-mock:
   openembedded: [gtest@meta-oe]
   opensuse: [gmock]
   rhel: [gmock-devel]
+  sles: [gmock]
   ubuntu: [google-mock]
 gpac:
   debian: [gpac]
@@ -1513,6 +1524,7 @@ graphviz:
   opensuse: [graphviz]
   rhel: [graphviz]
   slackware: [graphviz]
+  sles: [graphviz]
   ubuntu: [graphviz]
 graphviz-dev:
   debian: [libgraphviz-dev]
@@ -1671,6 +1683,7 @@ gtest:
   opensuse: [gtest]
   rhel: [gtest-devel]
   slackware: [gtest]
+  sles: [gtest]
   ubuntu: [libgtest-dev]
 gtk-doc-tools:
   arch: [gtk-doc]
@@ -1693,6 +1706,7 @@ gtk2:
   slackware:
     slackpkg:
       packages: [gtk+2]
+  sles: [gtk2-devel]
   ubuntu: [libgtk2.0-dev]
 gtk3:
   arch: [gtk3]
@@ -1737,6 +1751,7 @@ hddtemp:
   opensuse: [hddtemp]
   rhel: [hddtemp]
   slackware: [hddtemp]
+  sles: [hddtemp]
   ubuntu: [hddtemp]
 hdf5:
   arch: [hdf5-cpp-fortran]
@@ -2328,6 +2343,7 @@ libboost-date-time-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_date_time1_66_0-devel]
   rhel: [boost-devel]
+  sles: [libboost_date_time1_66_0-devel]
   ubuntu: [libboost-date-time-dev]
 libboost-dev:
   debian: [libboost-dev]
@@ -2361,6 +2377,7 @@ libboost-filesystem-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_filesystem1_66_0-devel]
   rhel: [boost-devel]
+  sles: [libboost_filesystem1_66_0-devel]
   ubuntu: [libboost-filesystem-dev]
 libboost-iostreams:
   debian:
@@ -2530,6 +2547,7 @@ libboost-regex-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_regex1_66_0-devel]
   rhel: [boost-devel]
+  sles: [libboost_regex1_66_0-devel]
   ubuntu: [libboost-regex-dev]
 libboost-serialization:
   debian:
@@ -2580,6 +2598,7 @@ libboost-system-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_system1_66_0-devel]
   rhel: [boost-devel]
+  sles: [libboost_system1_66_0-devel]
   ubuntu: [libboost-system-dev]
 libboost-thread:
   debian:
@@ -2606,6 +2625,7 @@ libboost-thread-dev:
   openembedded: [boost@openembedded-core]
   opensuse: [libboost_thread1_66_0-devel]
   rhel: [boost-devel]
+  sles: [libboost_thread1_66_0-devel]
   ubuntu: [libboost-thread-dev]
 libboost-timer:
   debian:
@@ -2760,6 +2780,7 @@ libconsole-bridge-dev:
   opensuse: [libconsole_bridge0_4]
   rhel: [console-bridge-devel]
   slackware: [console_bridge]
+  sles: [libconsole_bridge0_4]
   ubuntu: [libconsole-bridge-dev]
 libcos4-dev:
   debian: [libcos4-dev]
@@ -2998,6 +3019,7 @@ libfltk-dev:
   opensuse: [fltk-devel]
   rhel: [fltk-devel]
   slackware: [fltk]
+  sles: [fltk-devel]
   ubuntu:
     artful: [libfltk1.3-dev]
     bionic: [libfltk1.3-dev]
@@ -3119,6 +3141,7 @@ libgazebo9-dev:
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
   opensuse: [gazebo9-devel]
+  sles: [gazebo9-devel]
   ubuntu:
     artful: [libgazebo9-dev]
     bionic: [libgazebo9-dev]
@@ -3276,6 +3299,7 @@ libgpgme-dev:
   openembedded: [gpgme@openembedded-core]
   opensuse: [libgpgme-devel]
   rhel: [gpgme-devel]
+  sles: [libgpgme-devel]
   ubuntu:
     '*': [libgpgme-dev]
     lucid: [libgpgme11-dev]
@@ -3617,6 +3641,7 @@ libjpeg:
   opensuse: [libjpeg8-devel]
   rhel: [libjpeg-turbo-devel]
   slackware: [libjpeg-turbo]
+  sles: [libjpeg8-devel]
   ubuntu:
     artful: [libjpeg-dev]
     bionic: [libjpeg-dev]
@@ -3957,6 +3982,7 @@ libogg:
   opensuse: [libogg-devel]
   rhel: [libogg-devel]
   slackware: [libogg]
+  sles: [libogg-devel]
   ubuntu: [libogg-dev]
 libogre:
   arch: [ogre-1.9]
@@ -4007,6 +4033,7 @@ libogre-dev:
   openembedded: [ogre@meta-ros-common]
   opensuse: [libOgreMain-devel, libOgreOverlay-devel, libOgrePaging-devel, libOgreProperty-devel, libOgreRTShaderSystem-devel, libOgreTerrain-devel, libOgreVolume-devel]
   slackware: [ogre]
+  sles: [libOgreMain-devel, libOgreOverlay-devel, libOgrePaging-devel, libOgreProperty-devel, libOgreRTShaderSystem-devel, libOgreTerrain-devel, libOgreVolume-devel]
   ubuntu:
     artful: [libogre-1.9-dev]
     bionic: [libogre-1.9-dev]
@@ -4080,6 +4107,7 @@ libopencv-dev:
   openembedded: [opencv@meta-oe]
   opensuse: [opencv-devel]
   rhel: [opencv-devel]
+  sles: [opencv-devel]
   ubuntu: [libopencv-dev]
 libopencv-imgproc-dev:
   arch: [opencv]
@@ -4264,6 +4292,7 @@ libpcl-all-dev:
   opensuse: [pcl-devel]
   rhel: [pcl-devel]
   slackware: [pcl]
+  sles: [pcl-devel]
   ubuntu:
     artful: [libpcl-dev]
     bionic: [libpcl-dev]
@@ -4355,6 +4384,7 @@ libpoco-dev:
   opensuse: [poco-devel]
   rhel: [poco-devel]
   slackware: [poco]
+  sles: [poco-devel]
   ubuntu: [libpoco-dev]
 libpocofoundation9:
   debian: [libpocofoundation9]
@@ -4613,6 +4643,7 @@ libqt5-core:
   opensuse: [libQt5Core5]
   rhel: [qt5-qtbase]
   slackware: [qt5]
+  sles: [libQt5Core5]
   ubuntu: [libqt5core5a]
 libqt5-gstreamer-dev:
   debian: [libqt5gstreamer-dev]
@@ -4629,6 +4660,7 @@ libqt5-gui:
   opensuse: [libQt5Gui5]
   rhel: [qt5-qtbase-gui]
   slackware: [qt5]
+  sles: [libQt5Gui5]
   ubuntu: [libqt5gui5]
 libqt5-multimedia:
   debian: [libqt5multimedia5]
@@ -4656,6 +4688,7 @@ libqt5-opengl:
   opensuse: [libQt5OpenGL5]
   rhel: [qt5-qtbase]
   slackware: [qt5]
+  sles: [libQt5OpenGL5]
   ubuntu: [libqt5opengl5]
 libqt5-opengl-dev:
   arch: [qt5-base]
@@ -4668,6 +4701,7 @@ libqt5-opengl-dev:
   opensuse: [libQt5OpenGL-devel]
   rhel: [qt5-qtbase-devel]
   slackware: [qt5]
+  sles: [libQt5OpenGL-devel]
   ubuntu: [libqt5opengl5-dev]
 libqt5-printsupport:
   arch: [qt5-base]
@@ -4745,6 +4779,7 @@ libqt5-widgets:
   opensuse: [libQt5Widgets5]
   rhel: [qt5-qtbase]
   slackware: [qt5]
+  sles: [libQt5Widgets5]
   ubuntu: [libqt5widgets5]
 libqt5-xml:
   debian: [libqt5xml5]
@@ -4973,6 +5008,7 @@ libssl-dev:
   openembedded: [openssl@openembedded-core]
   opensuse: [libopenssl-devel]
   rhel: [openssl-devel]
+  sles: [libopenssl-devel]
   ubuntu: [libssl-dev]
 libstdc++5:
   arch: [libstdc++5]
@@ -5044,6 +5080,7 @@ libtheora:
   slackware:
     slackpkg:
       packages: [libtheora]
+  sles: [libtheora-devel]
   ubuntu: [libtheora-dev]
 libtiff-dev:
   arch: [libtiff]
@@ -5107,6 +5144,7 @@ libtool:
   opensuse: [libtool, libltdl7]
   rhel: [libtool, libtool-ltdl-devel]
   slackware: [libtool]
+  sles: [libtool, libltdl7]
   ubuntu:
     artful: [libtool, libltdl-dev, libtool-bin]
     bionic: [libtool, libltdl-dev, libtool-bin]
@@ -5208,6 +5246,7 @@ liburdfdom-dev:
   opensuse: [urdfdom-devel]
   rhel: [urdfdom-devel]
   slackware: [urdfdom]
+  sles: [urdfdom-devel]
   ubuntu: [liburdfdom-dev]
 liburdfdom-headers-dev:
   arch: [urdfdom-headers]
@@ -5220,6 +5259,7 @@ liburdfdom-headers-dev:
   opensuse: [urdfdom_headers-devel]
   rhel: [urdfdom-headers-devel]
   slackware: [urdfdom_headers]
+  sles: [urdfdom_headers-devel]
   ubuntu: [liburdfdom-headers-dev]
 liburdfdom-tools:
   arch: [urdfdom]
@@ -5808,6 +5848,7 @@ log4cxx:
   opensuse: [liblog4cxx-devel]
   rhel: [log4cxx-devel]
   slackware: [apache-log4cxx]
+  sles: [liblog4cxx-devel]
   ubuntu:
     '*': [liblog4cxx-dev]
     lucid: [liblog4cxx10-dev]
@@ -5866,6 +5907,7 @@ lz4:
   opensuse: [liblz4-devel]
   rhel: [lz4-devel]
   slackware: [lz4]
+  sles: [liblz4-devel]
   ubuntu: [liblz4-dev]
 m4:
   arch: [m4]
@@ -6315,6 +6357,7 @@ opengl:
   slackware:
     slackpkg:
       packages: [mesa]
+  sles: [Mesa-devel]
   ubuntu: [libgl1-mesa-dev, libglu1-mesa-dev]
 openjdk-6-jdk:
   arch: [openjdk6]
@@ -6459,6 +6502,7 @@ pkg-config:
   slackware:
     slackpkg:
       packages: [pkg-config]
+  sles: [pkg-config]
   ubuntu: [pkg-config]
 pmount:
   arch:
@@ -6758,6 +6802,7 @@ qt5-qmake:
   opensuse: [libqt5-qtbase-common-devel]
   rhel: [qt5-qtbase-devel]
   slackware: [qt5]
+  sles: [libqt5-qtbase-common-devel]
   ubuntu: [qt5-qmake]
 qtbase5-dev:
   alpine: [qt5-qtbase-dev]
@@ -6771,6 +6816,7 @@ qtbase5-dev:
   opensuse: [libqt5-qtbase-common-devel, libqt5-qtbase-devel]
   rhel: [qt5-qtbase-devel]
   slackware: [qt5]
+  sles: [libqt5-qtbase-common-devel, libqt5-qtbase-devel]
   ubuntu: [qtbase5-dev]
 qtbase5-private-dev:
   debian: [qtbase5-private-dev]
@@ -6919,6 +6965,7 @@ sbcl:
   opensuse: [sbcl]
   rhel: [sbcl]
   slackware: [sbcl]
+  sles: [sbcl]
   ubuntu: [sbcl]
 scons:
   arch: [scons]
@@ -7339,6 +7386,7 @@ tango-icon-theme:
   rhel:
     '7': [tango-icon-theme]
   slackware: [tango-icon-theme]
+  sles: [tango-icon-theme]
   ubuntu: [tango-icon-theme]
 tap-plugins:
   debian: [tap-plugins]
@@ -7423,6 +7471,7 @@ texlive-latex-extra:
   fedora: [texlive-titlesec, texlive-wrapfig, texlive-multirow, texlive-fancybox]
   gentoo: [dev-texlive/texlive-latexextra]
   opensuse: [texlive-titlesec, texlive-wrapfig, texlive-multirow, texlive-fancybox]
+  sles: [texlive-titlesec, texlive-wrapfig, texlive-multirow, texlive-fancybox]
   ubuntu: [texlive-latex-extra]
 texlive-latex-recommended:
   arch: [texlive-core]
@@ -7460,6 +7509,7 @@ tinyxml:
   opensuse: [tinyxml-devel]
   rhel: [tinyxml-devel]
   slackware: [tinyxml]
+  sles: [tinyxml-devel]
   ubuntu: [libtinyxml-dev]
 tinyxml2:
   alpine: [tinyxml2-dev]
@@ -7472,6 +7522,7 @@ tinyxml2:
   openembedded: [libtinyxml2@meta-oe]
   opensuse: [tinyxml2-devel]
   rhel: [tinyxml2-devel]
+  sles: [tinyxml2-devel]
   ubuntu: [libtinyxml2-dev]
 tix:
   arch: [tix]
@@ -7637,6 +7688,7 @@ uuid:
   slackware:
     slackpkg:
       packages: [util-linux]
+  sles: [libuuid-devel]
   ubuntu: [uuid-dev]
 uvcdynctrl:
   debian: [uvcdynctrl]
@@ -7919,6 +7971,7 @@ yaml-cpp:
   opensuse: [yaml-cpp-devel]
   rhel: [yaml-cpp-devel]
   slackware: [yaml-cpp]
+  sles: [yaml-cpp-devel]
   ubuntu:
     artful: [libyaml-cpp-dev]
     bionic: [libyaml-cpp-dev]
