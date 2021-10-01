@@ -718,6 +718,7 @@ python-bloom:
   debian: [python-bloom]
   fedora: [python-bloom]
   gentoo: [dev-python/bloom]
+  opensuse: [python3-bloom]
   ubuntu:
     '*': [python-bloom]
     trusty_python3: [python3-bloom]
@@ -924,7 +925,7 @@ python-catkin-pkg:
   macports: [python-catkin-pkg]
   nixos: [pythonPackages.catkin-pkg]
   openembedded: ['${PYTHON_PN}-catkin-pkg@meta-ros-common']
-  opensuse: [python-catkin_pkg]
+  opensuse: [python2-catkin_pkg]
   osx:
     pip:
       packages: [catkin-pkg]
@@ -968,7 +969,7 @@ python-catkin-pkg-modules:
   macports: [python-catkin-pkg]
   nixos: [pythonPackages.catkin-pkg]
   openembedded: ['${PYTHON_PN}-catkin-pkg@meta-ros-common']
-  opensuse: [python-catkin_pkg]
+  opensuse: [python2-catkin_pkg]
   osx:
     pip:
       packages: [catkin-pkg]
@@ -978,6 +979,7 @@ python-catkin-pkg-modules:
   ubuntu: [python-catkin-pkg-modules]
 python-catkin-sphinx:
   fedora: [python-catkin-sphinx]
+  opensuse: [python3-catkin-sphinx]
   osx:
     pip:
       packages: [catkin_sphinx]
@@ -4161,7 +4163,7 @@ python-rosdep:
   gentoo: [dev-util/rosdep]
   nixos: [pythonPackages.rosdep]
   openembedded: ['${PYTHON_PN}-rosdep@meta-ros-common']
-  opensuse: [python-rosdep]
+  opensuse: [python2-rosdep]
   osx:
     pip:
       packages: [rosdep]
@@ -4206,7 +4208,7 @@ python-rosdep-modules:
   gentoo: [dev-util/rosdep]
   nixos: [pythonPackages.rosdep]
   openembedded: ['${PYTHON_PN}-rosdep@meta-ros-common']
-  opensuse: [python-rosdep]
+  opensuse: [python2-rosdep]
   osx:
     pip:
       packages: [rosdep]
@@ -4220,6 +4222,7 @@ python-rosdistro:
   debian: [python-rosdistro]
   fedora: [python-rosdistro]
   gentoo: [dev-python/rosdistro]
+  opensuse: [python2-rosdistro]
   osx:
     macports: [py27-rosdistro]
     pip:
@@ -4254,6 +4257,7 @@ python-rosinstall:
   fedora: [python-rosinstall]
   gentoo: [dev-python/rosinstall]
   macports: [p27-rosinstall]
+  opensuse: [python2-rosinstall]
   rhel:
     '7': [python-rosinstall]
   ubuntu:
@@ -4267,6 +4271,7 @@ python-rosinstall-generator:
   fedora: [python-rosinstall_generator]
   gentoo: [dev-python/rosinstall_generator]
   macports: [py27-rosinstall-generator]
+  opensuse: [python2-rosinstall-generator]
   rhel:
     '7': [python2-rosinstall_generator]
   ubuntu: [python-rosinstall-generator]
@@ -4284,7 +4289,7 @@ python-rospkg:
   macports: [py27-rospkg]
   nixos: [pythonPackages.rospkg]
   openembedded: ['${PYTHON_PN}-rospkg@meta-ros-common']
-  opensuse: [python-rospkg]
+  opensuse: [python2-rospkg]
   osx:
     pip:
       packages: [rospkg]
@@ -4315,7 +4320,7 @@ python-rospkg-modules:
   gentoo: [dev-python/rospkg]
   macports: [py27-rospkg]
   nixos: [pythonPackages.rospkg]
-  opensuse: [python-rospkg]
+  opensuse: [python2-rospkg]
   osx:
     pip:
       packages: [rospkg]
@@ -5425,6 +5430,7 @@ python-vcstool:
     buster: [python-vcstool]
     stretch: [python-vcstool]
   fedora: [python-vcstool]
+  opensuse: [python3-vcstool]
   ubuntu: [python-vcstool]
 python-vcstools:
   debian:
@@ -5433,6 +5439,7 @@ python-vcstools:
   fedora: [python-vcstools]
   gentoo: [dev-python/vcstools]
   macports: [py27-vcstools]
+  opensuse: [python2-vcstools]
 python-vedo-pip:
   debian:
     pip:
@@ -5619,6 +5626,7 @@ python-wstool:
   fedora: [python-wstool]
   gentoo: [dev-python/wstool]
   macports: [py27-wstool]
+  opensuse: [python2-wstool]
   ubuntu: [python-wstool]
 python-wtforms:
   debian: [python-wtforms]
@@ -6029,6 +6037,7 @@ python3-catkin-pkg:
   gentoo: [dev-python/catkin_pkg]
   nixos: [python3Packages.catkin-pkg]
   openembedded: [python3-catkin-pkg@meta-ros-common]
+  opensuse: [python3-catkin_pkg]
   rhel: ['python%{python3_pkgversion}-catkin_pkg']
   ubuntu: [python3-catkin-pkg]
 python3-catkin-pkg-modules:
@@ -6038,6 +6047,7 @@ python3-catkin-pkg-modules:
   gentoo: [dev-python/catkin_pkg]
   nixos: [python3Packages.catkin-pkg]
   openembedded: [python3-catkin-pkg@meta-ros-common]
+  opensuse: [python3-catkin_pkg]
   osx:
     pip:
       packages: [catkin-pkg]
@@ -7682,6 +7692,7 @@ python3-rosdep:
   debian: [python3-rosdep]
   fedora: [python3-rosdep]
   gentoo: [dev-util/rosdep]
+  opensuse: [python3-rosdep]
   rhel: ['python%{python3_pkgversion}-rosdep']
   ubuntu: [python3-rosdep]
 python3-rosdep-modules:
@@ -7690,6 +7701,7 @@ python3-rosdep-modules:
   gentoo: [dev-util/rosdep]
   nixos: [python3Packages.rosdep]
   openembedded: [python3-rosdep@meta-ros-common]
+  opensuse: [python3-rosdep]
   rhel: ['python%{python3_pkgversion}-rosdep']
   ubuntu: [python3-rosdep-modules]
 python3-rosdistro-modules:
@@ -7702,6 +7714,7 @@ python3-rosdistro-modules:
   rhel: ['python%{python3_pkgversion}-rosdistro']
   ubuntu: [python3-rosdistro-modules]
 python3-rosinstall-generator:
+  opensuse: [python3-rosinstall-generator]
   ubuntu: [python3-rosinstall-generator]
 python3-rospkg:
   alpine: [py3-rospkg]
@@ -8250,6 +8263,7 @@ python3-vcstool:
   macports:
     pip:
       packages: [vcstool]
+  opensuse: [python3-vcstool]
   ubuntu: [python3-vcstool]
 python3-vedo-pip:
   debian:
