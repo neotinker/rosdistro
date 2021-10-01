@@ -1224,6 +1224,7 @@ gazebo9:
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
   openembedded: []
+  opensuse: [gazebo9]
   ubuntu:
     artful: [gazebo9]
     bionic: [gazebo9]
@@ -2756,7 +2757,7 @@ libconsole-bridge-dev:
   gentoo: [dev-libs/console_bridge]
   nixos: [console-bridge]
   openembedded: [console-bridge@meta-ros-common]
-  opensuse: [libconsole_bridge0]
+  opensuse: [libconsole_bridge0_4]
   rhel: [console-bridge-devel]
   slackware: [console_bridge]
   ubuntu: [libconsole-bridge-dev]
@@ -3117,6 +3118,7 @@ libgazebo9-dev:
     '31': [gazebo-devel]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
+  opensuse: [gazebo9-devel]
   ubuntu:
     artful: [libgazebo9-dev]
     bionic: [libgazebo9-dev]
@@ -4232,7 +4234,7 @@ libpcl-all:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
-  opensuse: [pcl]
+  opensuse: [libpcl1.9, pcl-tools]
   rhel: [pcl, pcl-tools]
   slackware: [pcl]
   ubuntu:
@@ -4259,7 +4261,7 @@ libpcl-all-dev:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
-  opensuse: [pcl]
+  opensuse: [pcl-devel]
   rhel: [pcl-devel]
   slackware: [pcl]
   ubuntu:
@@ -5215,7 +5217,7 @@ liburdfdom-headers-dev:
   gentoo: [dev-libs/urdfdom_headers]
   nixos: [urdfdom-headers]
   openembedded: [urdfdom-headers@meta-ros1]
-  opensuse: [urdfdom-headers-devel]
+  opensuse: [urdfdom_headers-devel]
   rhel: [urdfdom-headers-devel]
   slackware: [urdfdom_headers]
   ubuntu: [liburdfdom-headers-dev]
