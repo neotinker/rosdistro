@@ -7,8 +7,6 @@ release_platforms:
   - '15.1'
   - '15.2'
   - '15.3'
-  sles:
-  - '15.3'
   ubuntu:
   - bionic
 repositories:
