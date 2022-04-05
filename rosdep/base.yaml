@@ -8043,6 +8043,7 @@ zbar:
   gentoo: [media-gfx/zbar]
   nixos: [zbar]
   openembedded: [zbar@meta-oe]
+  opensuse: [zbar, libzbar-devel]
   rhel: [zbar-devel]
   ubuntu: [libzbar-dev]
 zenity:
