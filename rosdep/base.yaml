@@ -829,6 +829,7 @@ dpkg:
   gentoo: [app-arch/dpkg]
   nixos: [dpkg]
   openembedded: [dpkg@openembedded-core]
+  opensuse: [dpkg]
   ubuntu: [dpkg]
 dpkg-dev:
   debian: [dpkg-dev]
