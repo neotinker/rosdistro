@@ -4880,6 +4880,7 @@ libqt5x11extras5-dev:
   gentoo: ['dev-qt/qtx11extras:5']
   nixos: [qt5.qtx11extras]
   openembedded: [qtx11extras@meta-qt5]
+  opensuse: [libqt5-qtx11extras-devel]
   rhel: [qt5-qtx11extras-devel]
   ubuntu: [libqt5x11extras5-dev]
 libqtgui4:
