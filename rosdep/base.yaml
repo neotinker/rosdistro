@@ -4166,6 +4166,7 @@ libopenblas-dev:
   fedora: [openblas-devel]
   nixos: [openblas]
   openembedded: [openblas@meta-ros-common]
+  opensuse: [openblas-devel]
   rhel: [openblas-devel]
   ubuntu: [libopenblas-dev]
 libopencv-contrib-dev:
