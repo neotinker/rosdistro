@@ -5022,6 +5022,7 @@ libsqlite3-dev:
   gentoo: ['dev-db/sqlite:3']
   nixos: [sqlite]
   openembedded: [sqlite3@openembedded-core]
+  opensuse: [sqlite3-devel]
   rhel: [libsq3-devel]
   ubuntu: [libsqlite3-dev]
 libsrtp0-dev:
