@@ -3980,6 +3980,7 @@ python-pyudev:
   gentoo: [dev-python/pyudev]
   nixos: [pythonPackages.pyudev]
   openembedded: ['${PYTHON_PN}-pyudev@meta-python']
+  opensuse: [python2-pyudev]
   ubuntu:
     '*': [python-pyudev]
     artful_python3: [python3-pyudev]
