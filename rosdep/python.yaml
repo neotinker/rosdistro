@@ -3913,6 +3913,7 @@ python-pytest-cov:
   gentoo: [dev-python/pytest-cov]
   nixos: [pythonPackages.pytestcov]
   openembedded: ['${PYTHON_PN}-pytest-cov@meta-ros-common']
+  opensuse: [python2-pytest-cov]
   ubuntu: [python-pytest-cov]
 python-pytest-dependency-pip:
   debian:
