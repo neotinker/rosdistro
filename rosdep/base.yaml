@@ -2126,6 +2126,7 @@ java:
   freebsd: [openjdk6]
   gentoo: [virtual/jdk]
   nixos: [openjdk]
+  opensuse: [java-1_8_0-openjdk]
   rhel: [java]
   ubuntu: [default-jdk]
 joystick:
