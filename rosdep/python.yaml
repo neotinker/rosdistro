@@ -7606,6 +7606,7 @@ python3-pygame:
   fedora: [python3-pygame]
   gentoo: [dev-python/pygame]
   nixos: [python3Packages.pygame]
+  opensuse: [python3-pygame]
   ubuntu:
     '*': [python3-pygame]
     bionic:
