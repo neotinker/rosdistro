@@ -4032,6 +4032,7 @@ libnlopt-dev:
   fedora: [NLopt-devel]
   gentoo: [sci-libs/nlopt]
   nixos: [nlopt]
+  opensuse: [nlopt-devel]
   ubuntu: [libnlopt-dev]
 libnlopt0:
   debian: [libnlopt0]
