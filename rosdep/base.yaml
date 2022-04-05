@@ -5742,6 +5742,7 @@ libxmu-dev:
   gentoo: [x11-libs/libXmu]
   nixos: [xorg.libXmu]
   openembedded: [libxmu@openembedded-core]
+  opensuse: [libXmu-devel]
   rhel: [libXmu-devel]
   ubuntu: [libxmu-dev]
 libxrandr:
