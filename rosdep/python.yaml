@@ -4098,6 +4098,7 @@ python-qt5-bindings-gl:
 python-qt5-bindings-qsci:
   debian: [python-pyqt5.qsci]
   openembedded: ['${PYTHON_PN}-pyqt5@meta-qt5']
+  opensuse: [python2-qscintilla-qt5]
   ubuntu: [python-pyqt5.qsci]
 python-qt5-bindings-quick:
   debian: [python-pyqt5.qtquick]
