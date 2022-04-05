@@ -2130,6 +2130,7 @@ jq:
   fedora: [jq]
   gentoo: [app-misc/jq]
   nixos: [jq]
+  opensuse: [jq]
   rhel: [jq]
   ubuntu: [jq]
 julius-voxforge:
