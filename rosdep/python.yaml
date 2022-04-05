@@ -1508,6 +1508,7 @@ python-docker:
   debian: [python-docker]
   fedora: [python-docker]
   nixos: [pythonPackages.docker]
+  opensuse: [python2-docker]
   ubuntu: [python-docker]
 python-docopt:
   debian: [python-docopt]
