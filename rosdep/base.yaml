@@ -6379,6 +6379,7 @@ opencl-headers:
   fedora: [opencl-headers]
   nixos: [opencl-headers]
   openembedded: [opencl-headers@meta-oe]
+  opensuse: [opencl-headers]
   rhel: [opencl-headers]
   ubuntu: [opencl-headers]
 opende:
