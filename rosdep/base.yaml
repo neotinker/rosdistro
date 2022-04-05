@@ -4950,6 +4950,7 @@ libreadline-dev:
   macports: [readline]
   nixos: [readline]
   openembedded: [readline@openembedded-core]
+  opensuse: [readline-devel]
   ubuntu: [libreadline-dev]
 libreadline-java:
   arch: [java-readline]
