@@ -4657,6 +4657,7 @@ python-simplejson:
   gentoo: [dev-python/simplejson]
   nixos: [pythonPackages.simplejson]
   openembedded: ['${PYTHON_PN}-simplejson@openembedded-core']
+  opensuse: [python2-simplejson]
   ubuntu: [python-simplejson]
 python-singledispatch:
   debian: [python-singledispatch]
