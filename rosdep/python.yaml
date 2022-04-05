@@ -3601,6 +3601,7 @@ python-pygame:
   fedora: [pygame-devel]
   gentoo: [dev-python/pygame]
   nixos: [pythonPackages.pygame]
+  opensuse: [python2-pygame-devel]
   ubuntu: [python-pygame]
 python-pygithub3:
   debian:
