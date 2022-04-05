@@ -1371,6 +1371,7 @@ python-cwiid:
   arch: [cwiid]
   debian: [python-cwiid]
   gentoo: ['app-misc/cwiid[python]']
+  opensuse: [python-cwiid]
   ubuntu: [python-cwiid]
 python-cython-pip:
   arch:
