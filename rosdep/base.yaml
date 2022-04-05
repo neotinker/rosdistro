@@ -5877,6 +5877,7 @@ log4cplus:
   fedora: [log4cplus-devel]
   nixos: [log4cplus]
   openembedded: [log4cplus@openembedded-core]
+  opensuse: [log4cplus-devel]
   rhel: [log4cplus-devel]
   ubuntu: [liblog4cplus-dev]
 log4cxx:
