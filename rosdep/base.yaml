@@ -7962,6 +7962,7 @@ xterm:
   gentoo: [x11-terms/xterm]
   nixos: [xterm]
   openembedded: [xterm@meta-oe]
+  opensuse: [xterm]
   ubuntu: [xterm]
 xulrunner-1.9.2:
   arch: [xulrunner]
