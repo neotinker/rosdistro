@@ -1935,6 +1935,7 @@ python-gi-cairo:
   debian: [python-gi-cairo]
   gentoo: [dev-python/pygobject]
   nixos: [pythonPackages.pygobject3]
+  opensuse: [python2-gobject-cairo]
   ubuntu: [python-gi-cairo]
 python-git:
   arch: [python2-gitpython]
