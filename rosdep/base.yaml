@@ -7286,6 +7286,7 @@ sshpass:
   fedora: [sshpass]
   gentoo: [net-misc/sshpass]
   nixos: [sshpass]
+  opensuse: [sshpass]
   ubuntu: [sshpass]
 stress:
   arch: [stress]
