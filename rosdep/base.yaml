@@ -1160,6 +1160,7 @@ gawk:
   gentoo: [sys-apps/gawk]
   nixos: [gawk]
   openembedded: [gawk@openembedded-core]
+  opensuse: [gawk]
   ubuntu: [gawk]
 gazebo:
   arch: [gazebo]
