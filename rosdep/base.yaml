@@ -5976,6 +5976,7 @@ lua5.2-dev:
   gentoo: ['dev-lang/lua:5.2']
   nixos: [lua5]
   openembedded: [lua@meta-oe]
+  opensuse: [lua53-devel]
   rhel: [lua-devel]
   ubuntu: [liblua5.2-dev]
 lz4:
