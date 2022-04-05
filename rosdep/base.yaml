@@ -1293,6 +1293,7 @@ gfortran:
   fedora: [gcc-gfortran]
   gentoo: ['sys-devel/gcc[fortran]']
   nixos: [gfortran]
+  opensuse: [gcc11-fortran]
   ubuntu: [gfortran]
 ghc:
   arch: [ghc]
