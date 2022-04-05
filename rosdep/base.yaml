@@ -3891,6 +3891,7 @@ libmicrohttpd:
   gentoo: [net-libs/libmicrohttpd]
   nixos: [libmicrohttpd]
   openembedded: [libmicrohttpd@meta-oe]
+  opensuse: [libmicrohttpd-devel]
   rhel: [libmicrohttpd-devel]
   ubuntu: [libmicrohttpd-dev]
 libmlpack-dev:
