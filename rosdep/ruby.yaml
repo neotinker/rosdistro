@@ -79,6 +79,7 @@ ruby:
   gentoo: [dev-lang/ruby]
   macports: [ruby]
   nixos: [ruby]
+  opensuse: [ruby, ruby-devel, openssl-devel]
   ubuntu:
     '*': [ruby]
     lucid: [ruby1.8-dev, libopenssl-ruby1.8, rubygems1.8]
