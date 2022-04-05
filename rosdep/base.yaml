@@ -336,6 +336,7 @@ bison:
   macports: [bison]
   nixos: [bison]
   openembedded: [bison@openembedded-core]
+  opensuse: [bison]
   rhel: [bison]
   ubuntu: [bison]
 blender:
