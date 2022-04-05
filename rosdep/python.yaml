@@ -4678,6 +4678,7 @@ python-six:
   gentoo: [dev-python/six]
   nixos: [pythonPackages.six]
   openembedded: ['${PYTHON_PN}-six@openembedded-core']
+  opensuse: [python2-six]
   ubuntu: [python-six]
 python-skimage:
   debian: [python-skimage]
