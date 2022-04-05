@@ -4542,6 +4542,7 @@ libpulse-dev:
   gentoo: [media-sound/pulseaudio]
   nixos: [pulseaudio]
   openembedded: [pulseaudio@openembedded-core]
+  opensuse: [libpulse-devel]
   ubuntu: [libpulse-dev]
 libqcustomplot-dev:
   debian:
