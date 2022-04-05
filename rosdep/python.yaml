@@ -2528,6 +2528,7 @@ python-kitchen:
   fedora: [python-kitchen]
   gentoo: [dev-python/kitchen]
   nixos: [pythonPackages.kitchen]
+  opensuse: [python2-kitchen]
   osx:
     pip:
       packages: [kitchen]
