@@ -8052,6 +8052,7 @@ xvfb:
   fedora: [xorg-x11-server-Xvfb]
   gentoo: [x11-misc/xvfb-run]
   nixos: [xorg.xorgserver]
+  opensuse: [xorg-x11-server]
   ubuntu: [xvfb]
 xz-utils:
   arch: [xz]
