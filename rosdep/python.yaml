@@ -3905,6 +3905,7 @@ python-pytest:
   gentoo: [dev-python/pytest]
   nixos: [pythonPackages.pytest]
   openembedded: ['${PYTHON_PN}-pytest@openembedded-core']
+  opensuse: [python2-pytest]
   ubuntu: [python-pytest]
 python-pytest-cov:
   arch: [python2-pytest-cov]
