@@ -5702,6 +5702,7 @@ libxmlrpc-c++:
   gentoo: [dev-libs/xmlrpc-c]
   nixos: [xmlrpc_c]
   openembedded: [xmlrpc-c@meta-oe]
+  opensuse: [xmlrpc-c-devel]
   rhel: [xmlrpc-c-devel]
   ubuntu: [libxmlrpc-c++8-dev]
 libxmu-dev:
