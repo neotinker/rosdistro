@@ -1127,6 +1127,7 @@ python-click:
   gentoo: [dev-python/click]
   nixos: [pythonPackages.click]
   openembedded: ['${PYTHON_PN}-click@meta-python']
+  opensuse: [python2-click]
   osx:
     pip:
       packages: [click]
