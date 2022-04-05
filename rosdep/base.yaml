@@ -7785,6 +7785,7 @@ vlc:
   gentoo: [media-video/vlc]
   nixos: [vlc]
   openembedded: [vlc@meta-multimedia]
+  opensuse: [vlc]
   ubuntu: [vlc]
 vorbis-tools:
   arch: [vorbis-tools]
