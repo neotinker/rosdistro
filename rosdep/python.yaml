@@ -5067,6 +5067,7 @@ python-termcolor:
   gentoo: [dev-python/termcolor]
   nixos: [pythonPackages.termcolor]
   openembedded: ['${PYTHON_PN}-termcolor@openembedded-core']
+  opensuse: [python2-termcolor]
   osx:
     pip:
       packages: [termcolor]
