@@ -7719,6 +7719,7 @@ usbutils:
   macports: [usbutils]
   nixos: [usbutils]
   openembedded: [usbutils@openembedded-core]
+  opensuse: [usbutils]
   osx:
     homebrew:
       packages: [lsusb]
