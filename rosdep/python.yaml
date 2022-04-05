@@ -1929,6 +1929,7 @@ python-gi:
   debian: [python-gi]
   gentoo: [dev-python/pygobject]
   nixos: [pythonPackages.pygobject3]
+  opensuse: [python2-gobject]
   ubuntu: [python-gi]
 python-gi-cairo:
   debian: [python-gi-cairo]
