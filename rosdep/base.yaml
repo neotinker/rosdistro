@@ -5012,6 +5012,7 @@ libspnav-dev:
   fedora: [libspnav-devel, libX11-devel]
   gentoo: [dev-libs/libspnav]
   nixos: [libspnav]
+  opensuse: [libspnav-devel, libX11-devel]
   rhel: [libspnav-devel, libX11-devel]
   ubuntu: [libspnav-dev, libx11-dev]
 libsqlite3-dev:
