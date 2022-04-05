@@ -7934,6 +7934,7 @@ xfonts-75dpi:
   fedora: [xorg-x11-fonts-100dpi]
   gentoo: [media-fonts/font-adobe-75dpi, media-fonts/font-bh-75dpi, media-fonts/font-bh-lucidatypewriter-75dpi, media-fonts/font-bitstream-75dpi]
   nixos: [xorg.fontadobe75dpi, xorg.fontbh75dpi, xorg.fontbhlucidatypewriter75dpi, xorg.fontbitstream75dpi]
+  opensuse: [xorg-x11-fonts-legacy]
   ubuntu: [xfonts-75dpi]
 xpath-perl:
   arch: [perl-xml-xpath]
