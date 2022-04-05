@@ -4155,6 +4155,7 @@ python-requests:
   gentoo: [dev-python/requests]
   nixos: [pythonPackages.requests]
   openembedded: ['${PYTHON_PN}-requests@openembedded-core']
+  opensuse: [python2-requests]
   osx:
     pip:
       packages: [requests]
