@@ -314,6 +314,7 @@ benchmark:
   fedora: [google-benchmark-devel]
   nixos: [gbenchmark]
   openembedded: [google-benchmark@meta-ros2]
+  opensuse: [benchmark-devel]
   rhel: [google-benchmark-devel]
   ubuntu:
     '*': [libbenchmark-dev]
