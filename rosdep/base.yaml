@@ -1071,6 +1071,7 @@ fmt:
   fedora: [fmt-devel]
   gentoo: [dev-libs/libfmt]
   nixos: [fmt]
+  opensuse: [fmt-devel]
   ubuntu: [libfmt-dev]
 fonts-noto:
   alpine: [font-noto]
