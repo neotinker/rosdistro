@@ -971,6 +971,7 @@ festival:
   fedora: [festival, festvox-kal-diphone]
   gentoo: [app-accessibility/festival]
   openembedded: [festival@meta-ros1]
+  opensuse: [festival]
   ubuntu: [festival, festvox-kallpc16k]
 festival-dev:
   debian: [festival-dev]
