@@ -3406,6 +3406,7 @@ libgphoto-dev:
   gentoo: [media-gfx/gphoto2]
   nixos: [libgphoto2]
   openembedded: [libgphoto2@meta-oe]
+  opensuse: [libgphoto2-devel]
   rhel: [libgphoto2-devel]
   ubuntu:
     '*': [libgphoto2-dev]
