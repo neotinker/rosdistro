@@ -3041,6 +3041,7 @@ libfftw3:
   gentoo: ['sci-libs/fftw:3.0']
   nixos: [fftw, fftwSinglePrec]
   openembedded: [fftw@meta-oe]
+  opensuse: [fftw3, fftw3-devel]
   ubuntu: [libfftw3-3, libfftw3-dev]
 libfl-dev:
   debian: [libfl-dev]
