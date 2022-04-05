@@ -6184,6 +6184,7 @@ msgpack:
   gentoo: [dev-libs/msgpack]
   nixos: [msgpack]
   openembedded: [msgpack-c@meta-oe]
+  opensuse: [msgpack-devel]
   ubuntu: [libmsgpack-dev]
 msr-tools:
   arch: [msr-tools]
