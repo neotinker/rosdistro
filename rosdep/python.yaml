@@ -2715,6 +2715,7 @@ python-mechanize:
   fedora: [python-mechanize]
   gentoo: [dev-python/mechanize]
   nixos: [pythonPackages.mechanize]
+  opensuse: [python2-mechanize]
   ubuntu: [python-mechanize]
 python-mock:
   alpine: [py-mock]
