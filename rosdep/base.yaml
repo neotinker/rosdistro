@@ -6313,6 +6313,7 @@ npm:
   fedora: [npm]
   gentoo: ['net-libs/nodejs[npm]']
   nixos: [nodePackages.npm]
+  opensuse: [npm-default]
   ubuntu: [npm]
 ntp:
   arch: [ntp]
