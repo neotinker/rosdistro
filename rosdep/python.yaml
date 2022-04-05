@@ -158,6 +158,7 @@ cython3:
   fedora: [python3-Cython]
   gentoo: [dev-python/cython]
   nixos: [python3Packages.cython]
+  opensuse: [python3-Cython]
   ubuntu: [cython3]
 dpath-pip:
   ubuntu:
