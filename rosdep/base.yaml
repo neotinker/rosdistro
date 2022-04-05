@@ -1400,6 +1400,7 @@ gnuplot:
   gentoo: [sci-visualization/gnuplot]
   nixos: [gnuplot]
   openembedded: [gnuplot@meta-oe]
+  opensuse: [gnuplot]
   ubuntu: [gnuplot]
 gnuplot-x11:
   debian: [gnuplot-x11]
