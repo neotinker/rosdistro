@@ -6662,6 +6662,7 @@ procps:
   gentoo: [sys-process/procps]
   nixos: [procps]
   openembedded: [procps@openembedded-core]
+  opensuse: [procps]
   ubuntu: [procps]
 proj:
   arch: [proj]
