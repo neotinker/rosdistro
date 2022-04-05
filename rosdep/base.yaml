@@ -6730,6 +6730,7 @@ pugixml-dev:
   fedora: [pugixml-devel]
   nixos: [pugixml]
   openembedded: [pugixml@meta-oe]
+  opensuse: [pugixml-devel]
   rhel: [pugixml-devel]
   ubuntu: [libpugixml-dev]
 pybind11-dev:
