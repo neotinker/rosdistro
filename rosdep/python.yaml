@@ -6026,6 +6026,7 @@ python3-bson:
   gentoo: [dev-python/pymongo]
   nixos: [python3Packages.bson]
   openembedded: [python3-pymongo@meta-python]
+  opensuse: [python3-bson]
   osx:
     pip:
       packages: [bson]
