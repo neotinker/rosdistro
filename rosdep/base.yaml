@@ -325,6 +325,7 @@ binutils:
   gentoo: [sys-devel/binutils]
   nixos: [binutils]
   openembedded: [binutils@openembedded-core]
+  opensuse: [binutils-devel]
   rhel: [binutils-devel]
   ubuntu: [binutils-dev]
 bison:
