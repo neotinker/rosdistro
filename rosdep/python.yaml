@@ -758,6 +758,7 @@ python-bluez:
   gentoo: [dev-python/pybluez]
   nixos: [pythonPackages.pybluez]
   openembedded: ['${PYTHON_PN}-pybluez@meta-python']
+  opensuse: [python2-pybluez]
   ubuntu: [python-bluez]
 python-bokeh-pip:
   debian:
