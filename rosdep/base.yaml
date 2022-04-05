@@ -4951,6 +4951,7 @@ libraw1394-dev:
   gentoo: [sys-libs/libraw1394]
   nixos: [libraw1394]
   openembedded: [libraw1394@meta-oe]
+  opensuse: [libraw1394-devel]
   rhel: [libraw1394-devel]
   ubuntu: [libraw1394-dev]
 librdkafka-dev:
