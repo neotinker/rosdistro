@@ -5439,6 +5439,7 @@ python-usb:
   gentoo: [dev-python/pyusb]
   nixos: [pythonPackages.pyusb]
   openembedded: ['${PYTHON_PN}-pyusb@meta-python']
+  opensuse: [python2-usb]
   ubuntu: [python-usb]
 python-utm-pip:
   debian:
