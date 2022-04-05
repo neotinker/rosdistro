@@ -5190,6 +5190,7 @@ python-tornado:
   gentoo: [www-servers/tornado]
   nixos: [pythonPackages.tornado]
   openembedded: [python-tornado45@meta-ros-python2]
+  opensuse: [python2-tornado]
   osx:
     pip:
       packages: [tornado]
