@@ -255,6 +255,7 @@ avahi-daemon:
   gentoo: [net-dns/avahi]
   nixos: [avahi]
   openembedded: [avahi@openembedded-core]
+  opensuse: [avahi]
   ubuntu: [avahi-daemon]
 avahi-utils:
   arch: [avahi]
