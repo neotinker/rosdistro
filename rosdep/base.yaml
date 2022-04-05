@@ -1571,6 +1571,7 @@ gstreamer1.0-alsa:
   fedora: [gstreamer1-plugins-base]
   nixos: [gst_all_1.gst-plugins-base]
   openembedded: [gstreamer1.0-plugins-base@openembedded-core]
+  opensuse: [gstreamer-plugins-base]
   rhel: [gstreamer1-plugins-base]
   ubuntu: [gstreamer1.0-alsa]
 gstreamer1.0-gl:
