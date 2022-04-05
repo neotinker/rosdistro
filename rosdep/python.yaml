@@ -3146,6 +3146,7 @@ python-pandas:
   fedora: [python-pandas]
   gentoo: [dev-python/pandas]
   nixos: [pythonPackages.pandas]
+  opensuse: [python2-pandas]
   ubuntu: [python-pandas]
 python-parameterized:
   debian:
