@@ -898,6 +898,7 @@ emacs:
   gentoo: [virtual/emacs]
   nixos: [emacs]
   openembedded: [emacs@meta-oe]
+  opensuse: [emacs]
   ubuntu: [emacs]
 embree:
   arch: [embree]
