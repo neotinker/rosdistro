@@ -659,6 +659,7 @@ cppcheck:
   gentoo: [dev-util/cppcheck]
   nixos: [cppcheck]
   openembedded: [cppcheck@meta-ros-common]
+  opensuse: [cppcheck]
   osx:
     homebrew:
       packages: [cppcheck]
