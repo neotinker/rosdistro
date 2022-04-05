@@ -6885,6 +6885,7 @@ qtmultimedia5-dev:
   gentoo: ['dev-qt/qtmultimedia:5']
   nixos: [qt5.qtmultimedia]
   openembedded: [qtmultimedia@meta-qt5]
+  opensuse: [libqt5-qtmultimedia-devel]
   ubuntu: [qtmultimedia5-dev]
 qtpositioning5-dev:
   debian: [qtpositioning5-dev]
