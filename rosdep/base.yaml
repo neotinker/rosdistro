@@ -7855,6 +7855,7 @@ wx-common:
   gentoo: [x11-libs/wxGTK]
   nixos: [wxGTK]
   openembedded: [wxwidgets@meta-ros-common]
+  opensuse: [wxGTK3-3_2-devel]
   rhel:
     '*': [wxGTK3-devel]
     '7': [wxGTK-devel]
