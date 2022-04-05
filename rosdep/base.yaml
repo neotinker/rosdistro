@@ -6269,6 +6269,7 @@ nkf:
   fedora: [nkf]
   gentoo: [app-i18n/nkf]
   nixos: [nkf]
+  opensuse: [nkf]
   rhel: [nkf]
   ubuntu: [nkf]
 nlohmann-json-dev:
