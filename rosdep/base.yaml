@@ -7421,6 +7421,7 @@ sysstat:
   gentoo: [app-admin/sysstat]
   nixos: [sysstat]
   openembedded: [sysstat@openembedded-core]
+  opensuse: [sysstat]
   ubuntu: [sysstat]
 systemd:
   arch: [systemd]
