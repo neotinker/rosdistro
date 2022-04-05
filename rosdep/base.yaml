@@ -7733,6 +7733,7 @@ util-linux:
   macports: [util-linux]
   nixos: [util-linux]
   openembedded: [util-linux@openembedded-core]
+  opensuse: [util-linux]
   ubuntu:
     '*': [util-linux]
     bionic: [setpriv, util-linux]
