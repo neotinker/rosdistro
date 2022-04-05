@@ -4905,6 +4905,7 @@ libqwt-qt5-dev:
   gentoo: ['x11-libs/qwt:6']
   nixos: [libsForQt5.qwt]
   openembedded: [qwt-qt5@meta-qt5]
+  opensuse: [libQt5Widgets-devel]
   ubuntu:
     '*': [libqwt-qt5-dev]
     trusty: null
