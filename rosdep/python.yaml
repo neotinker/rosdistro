@@ -3283,6 +3283,7 @@ python-pep8:
   debian: [pep8]
   gentoo: [dev-python/pep8]
   nixos: [pythonPackages.pep8]
+  opensuse: [python2-flake8]
   osx:
     pip:
       packages: [pep8]
