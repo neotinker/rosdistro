@@ -5613,6 +5613,7 @@ python-wheel:
 python-whichcraft:
   debian: [python-whichcraft]
   nixos: [pythonPackages.whichcraft]
+  opensuse: [python2-whichcraft]
   ubuntu: [python-whichcraft]
 python-wrapt:
   debian: [python-wrapt]
