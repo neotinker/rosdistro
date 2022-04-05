@@ -2314,6 +2314,7 @@ libblas-dev:
   gentoo: [virtual/blas]
   nixos: [blas]
   openembedded: [openblas@meta-ros-common]
+  opensuse: [blas-devel]
   rhel: [blas-devel]
   ubuntu: [libblas-dev]
 libbluetooth:
