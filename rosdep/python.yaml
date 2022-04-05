@@ -1520,6 +1520,7 @@ python-docopt:
   fedora: [python-docopt]
   gentoo: [dev-python/docopt]
   nixos: [pythonPackages.docopt]
+  opensuse: [python2-docopt]
   ubuntu: [python-docopt]
 python-docutils:
   arch: [python2-docutils]
