@@ -4200,6 +4200,7 @@ libopenexr-dev:
   fedora: [OpenEXR-devel]
   gentoo: [media-libs/openexr]
   nixos: [openexr]
+  opensuse: [openexr-devel]
   rhel: [OpenEXR-devel]
   ubuntu: [libopenexr-dev]
 libopenni-dev:
