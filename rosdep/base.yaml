@@ -3255,6 +3255,7 @@ libgeos++-dev:
   gentoo: [sci-libs/geos]
   nixos: [geos]
   openembedded: [geos@meta-oe]
+  opensuse: [geos-devel]
   rhel: [geos-devel]
   ubuntu: [libgeos++-dev]
 libgeotiff-dev:
