@@ -6608,6 +6608,7 @@ postgresql:
   fedora: [postgresql-server, postgresql-contrib]
   nixos: [postgresql]
   openembedded: [postgresql@meta-oe]
+  opensuse: [postgresql-server, postgresql-contrib]
   ubuntu: [postgresql, postgresql-contrib]
 postgresql-9.x-postgis:
   debian:
