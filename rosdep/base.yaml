@@ -276,6 +276,7 @@ avrdude:
   fedora: [avrdude]
   gentoo: [dev-embedded/avrdude]
   nixos: [avrdude]
+  opensuse: [avrdude]
   ubuntu: [avrdude]
 awscli:
   arch: [aws-cli]
