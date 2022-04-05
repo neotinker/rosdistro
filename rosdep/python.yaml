@@ -150,6 +150,7 @@ cython:
   fedora: [Cython]
   gentoo: [dev-python/cython]
   nixos: [pythonPackages.cython]
+  opensuse: [python2-Cython]
   ubuntu: [cython]
 cython3:
   arch: [cython]
