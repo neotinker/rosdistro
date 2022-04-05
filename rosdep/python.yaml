@@ -5965,6 +5965,7 @@ python3-bluez:
   debian: [python3-bluez]
   fedora: [python3-bluez]
   gentoo: [dev-python/pybluez]
+  opensuse: [python3-pybluez]
   ubuntu:
     '*': [python3-bluez]
     bionic: null
