@@ -7454,6 +7454,7 @@ swig:
   gentoo: [dev-lang/swig]
   nixos: [swig]
   openembedded: [swig@openembedded-core]
+  opensuse: [swig]
   ubuntu: [swig]
 swig-wx:
   gentoo: [dev-lang/swig]
