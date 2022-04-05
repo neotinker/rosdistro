@@ -7810,6 +7810,7 @@ v4l-utils:
   gentoo: [media-tv/v4l-utils]
   nixos: [v4l-utils]
   openembedded: [v4l-utils@meta-oe]
+  opensuse: [v4l-utils]
   rhel:
     '7': [v4l-utils]
   ubuntu: [v4l-utils]
