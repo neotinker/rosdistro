@@ -8301,6 +8301,7 @@ python3-simplejson:
   gentoo: [dev-python/simplejson]
   nixos: [python3Packages.simplejson]
   openembedded: [python3-simplejson@meta-python]
+  opensuse: [python3-simplejson]
   ubuntu: [python3-simplejson]
 python3-sip:
   debian: [python3-sip-dev]
