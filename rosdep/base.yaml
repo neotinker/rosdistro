@@ -4167,6 +4167,7 @@ libomp-dev:
   debian: [libomp-dev]
   fedora: [libomp-devel]
   nixos: [llvmPackages.openmp]
+  opensuse: [libomp11-devel]
   rhel:
     '*': [libomp-devel]
     '7': null
