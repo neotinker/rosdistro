@@ -7651,6 +7651,7 @@ udev:
   gentoo: [sys-fs/udev]
   nixos: [udev]
   openembedded: [udev@openembedded-core]
+  opensuse: [systemd]
   rhel: [systemd]
   ubuntu: [udev]
 udhcpc:
