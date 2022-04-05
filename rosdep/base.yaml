@@ -505,6 +505,7 @@ clang:
   fedora: [clang]
   gentoo: [sys-devel/clang]
   nixos: [clang]
+  opensuse: [clang]
   rhel:
     '*': [clang]
     '7': null
