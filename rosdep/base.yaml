@@ -3986,6 +3986,7 @@ libncurses-dev:
   macports: [ncurses]
   nixos: [ncurses]
   openembedded: [ncurses@openembedded-core]
+  opensuse: [ncurses-devel]
   rhel: [ncurses-devel]
   ubuntu: [libncurses5-dev]
 libneon27-gnutls-dev:
