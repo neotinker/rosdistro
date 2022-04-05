@@ -4335,6 +4335,7 @@ libpcap:
   macports: [libpcap]
   nixos: [libpcap]
   openembedded: [libpcap@openembedded-core]
+  opensuse: [libpcap-devel]
   rhel: [libpcap-devel]
   ubuntu: [libpcap0.8-dev]
 libpcl-all:
