@@ -832,6 +832,7 @@ python-bson:
   gentoo: [dev-python/pymongo]
   nixos: [pythonPackages.bson]
   openembedded: ['${PYTHON_PN}-pymongo@meta-python']
+  opensuse: [python2-bson]
   osx:
     pip:
       packages: [bson]
