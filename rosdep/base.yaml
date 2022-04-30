@@ -4311,6 +4311,7 @@ liborocos-kdl:
   gentoo: [sci-libs/orocos_kdl]
   nixos: [orocos-kdl]
   openembedded: [orocos-kdl@meta-ros1-noetic]
+  opensuse: [liborocos-kdl1_5]
   ubuntu:
     '*': [liborocos-kdl1.4]
     bionic: [liborocos-kdl1.3]
