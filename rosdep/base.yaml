@@ -4322,6 +4322,7 @@ liborocos-kdl-dev:
   gentoo: [sci-libs/orocos_kdl]
   nixos: [orocos-kdl]
   openembedded: [orocos-kdl@meta-ros1-noetic]
+  opensuse: [orocos-kdl-devel]
   ubuntu: [liborocos-kdl-dev]
 libosmesa6-dev:
   arch: [mesa]
