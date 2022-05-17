@@ -150,6 +150,7 @@ cython:
   fedora: [Cython]
   gentoo: [dev-python/cython]
   nixos: [pythonPackages.cython]
+  opensuse: [python2-Cython]
   ubuntu: [cython]
 cython3:
   arch: [cython]
@@ -157,6 +158,7 @@ cython3:
   fedora: [python3-Cython]
   gentoo: [dev-python/cython]
   nixos: [python3Packages.cython]
+  opensuse: [python3-Cython]
   ubuntu: [cython3]
 dpath-pip:
   ubuntu:
@@ -759,6 +761,7 @@ python-bluez:
   gentoo: [dev-python/pybluez]
   nixos: [pythonPackages.pybluez]
   openembedded: ['${PYTHON_PN}-pybluez@meta-python']
+  opensuse: [python2-pybluez]
   ubuntu: [python-bluez]
 python-bokeh-pip:
   debian:
@@ -833,6 +836,7 @@ python-bson:
   gentoo: [dev-python/pymongo]
   nixos: [pythonPackages.bson]
   openembedded: ['${PYTHON_PN}-pymongo@meta-python']
+  opensuse: [python2-bson]
   osx:
     pip:
       packages: [bson]
@@ -1125,6 +1129,7 @@ python-click:
   gentoo: [dev-python/click]
   nixos: [pythonPackages.click]
   openembedded: ['${PYTHON_PN}-click@meta-python']
+  opensuse: [python2-click]
   osx:
     pip:
       packages: [click]
@@ -1373,6 +1378,7 @@ python-cwiid:
   arch: [cwiid]
   debian: [python-cwiid]
   gentoo: ['app-misc/cwiid[python]']
+  opensuse: [python-cwiid]
   ubuntu: [python-cwiid]
 python-cython-pip:
   arch:
@@ -1510,12 +1516,14 @@ python-docker:
   debian: [python-docker]
   fedora: [python-docker]
   nixos: [pythonPackages.docker]
+  opensuse: [python2-docker]
   ubuntu: [python-docker]
 python-docopt:
   debian: [python-docopt]
   fedora: [python-docopt]
   gentoo: [dev-python/docopt]
   nixos: [pythonPackages.docopt]
+  opensuse: [python2-docopt]
   ubuntu: [python-docopt]
 python-docutils:
   arch: [python2-docutils]
@@ -1923,11 +1931,13 @@ python-gi:
   debian: [python-gi]
   gentoo: [dev-python/pygobject]
   nixos: [pythonPackages.pygobject3]
+  opensuse: [python2-gobject]
   ubuntu: [python-gi]
 python-gi-cairo:
   debian: [python-gi-cairo]
   gentoo: [dev-python/pygobject]
   nixos: [pythonPackages.pygobject3]
+  opensuse: [python2-gobject-cairo]
   ubuntu: [python-gi-cairo]
 python-git:
   arch: [python2-gitpython]
@@ -2530,6 +2540,7 @@ python-kitchen:
   fedora: [python-kitchen]
   gentoo: [dev-python/kitchen]
   nixos: [pythonPackages.kitchen]
+  opensuse: [python2-kitchen]
   osx:
     pip:
       packages: [kitchen]
@@ -2717,6 +2728,7 @@ python-mechanize:
   fedora: [python-mechanize]
   gentoo: [dev-python/mechanize]
   nixos: [pythonPackages.mechanize]
+  opensuse: [python2-mechanize]
   ubuntu: [python-mechanize]
 python-mock:
   alpine: [py-mock]
@@ -3148,6 +3160,7 @@ python-pandas:
   fedora: [python-pandas]
   gentoo: [dev-python/pandas]
   nixos: [pythonPackages.pandas]
+  opensuse: [python2-pandas]
   ubuntu: [python-pandas]
 python-parameterized:
   debian:
@@ -3285,6 +3298,7 @@ python-pep8:
   debian: [pep8]
   gentoo: [dev-python/pep8]
   nixos: [pythonPackages.pep8]
+  opensuse: [python2-flake8]
   osx:
     pip:
       packages: [pep8]
@@ -3603,6 +3617,7 @@ python-pygame:
   fedora: [pygame-devel]
   gentoo: [dev-python/pygame]
   nixos: [pythonPackages.pygame]
+  opensuse: [python2-pygame-devel]
   ubuntu: [python-pygame]
 python-pygithub3:
   debian:
@@ -3907,6 +3922,7 @@ python-pytest:
   gentoo: [dev-python/pytest]
   nixos: [pythonPackages.pytest]
   openembedded: ['${PYTHON_PN}-pytest@openembedded-core']
+  opensuse: [python2-pytest]
   ubuntu: [python-pytest]
 python-pytest-cov:
   arch: [python2-pytest-cov]
@@ -3915,6 +3931,7 @@ python-pytest-cov:
   gentoo: [dev-python/pytest-cov]
   nixos: [pythonPackages.pytestcov]
   openembedded: ['${PYTHON_PN}-pytest-cov@meta-ros-common']
+  opensuse: [python2-pytest-cov]
   ubuntu: [python-pytest-cov]
 python-pytest-dependency-pip:
   debian:
@@ -3969,6 +3986,7 @@ python-pyudev:
   gentoo: [dev-python/pyudev]
   nixos: [pythonPackages.pyudev]
   openembedded: ['${PYTHON_PN}-pyudev@meta-python']
+  opensuse: [python2-pyudev]
   ubuntu:
     '*': [python-pyudev]
     artful_python3: [python3-pyudev]
@@ -4100,6 +4118,7 @@ python-qt5-bindings-gl:
 python-qt5-bindings-qsci:
   debian: [python-pyqt5.qsci]
   openembedded: ['${PYTHON_PN}-pyqt5@meta-qt5']
+  opensuse: [python2-qscintilla-qt5]
   ubuntu: [python-pyqt5.qsci]
 python-qt5-bindings-quick:
   debian: [python-pyqt5.qtquick]
@@ -4157,6 +4176,7 @@ python-requests:
   gentoo: [dev-python/requests]
   nixos: [pythonPackages.requests]
   openembedded: ['${PYTHON_PN}-requests@openembedded-core']
+  opensuse: [python2-requests]
   osx:
     pip:
       packages: [requests]
@@ -4647,6 +4667,7 @@ python-simplejson:
   gentoo: [dev-python/simplejson]
   nixos: [pythonPackages.simplejson]
   openembedded: ['${PYTHON_PN}-simplejson@openembedded-core']
+  opensuse: [python2-simplejson]
   ubuntu: [python-simplejson]
 python-singledispatch:
   debian: [python-singledispatch]
@@ -4683,6 +4704,7 @@ python-six:
   gentoo: [dev-python/six]
   nixos: [pythonPackages.six]
   openembedded: ['${PYTHON_PN}-six@openembedded-core']
+  opensuse: [python2-six]
   ubuntu: [python-six]
 python-skimage:
   debian: [python-skimage]
@@ -5072,6 +5094,7 @@ python-termcolor:
   gentoo: [dev-python/termcolor]
   nixos: [pythonPackages.termcolor]
   openembedded: ['${PYTHON_PN}-termcolor@openembedded-core']
+  opensuse: [python2-termcolor]
   osx:
     pip:
       packages: [termcolor]
@@ -5195,6 +5218,7 @@ python-tornado:
   gentoo: [www-servers/tornado]
   nixos: [pythonPackages.tornado]
   openembedded: [python-tornado45@meta-ros-python2]
+  opensuse: [python2-tornado]
   osx:
     pip:
       packages: [tornado]
@@ -5422,6 +5446,7 @@ python-usb:
   gentoo: [dev-python/pyusb]
   nixos: [pythonPackages.pyusb]
   openembedded: ['${PYTHON_PN}-pyusb@meta-python']
+  opensuse: [python2-usb]
   ubuntu: [python-usb]
 python-utm-pip:
   debian:
@@ -5620,6 +5645,7 @@ python-wheel:
 python-whichcraft:
   debian: [python-whichcraft]
   nixos: [pythonPackages.whichcraft]
+  opensuse: [python2-whichcraft]
   ubuntu: [python-whichcraft]
 python-wrapt:
   debian: [python-wrapt]
@@ -5957,6 +5983,7 @@ python3-bluez:
   debian: [python3-bluez]
   fedora: [python3-bluez]
   gentoo: [dev-python/pybluez]
+  opensuse: [python3-pybluez]
   ubuntu:
     '*': [python3-bluez]
     bionic: null
@@ -6018,6 +6045,7 @@ python3-bson:
   gentoo: [dev-python/pymongo]
   nixos: [python3Packages.bson]
   openembedded: [python3-pymongo@meta-python]
+  opensuse: [python3-bson]
   osx:
     pip:
       packages: [bson]
@@ -7607,6 +7635,7 @@ python3-pygame:
   fedora: [python3-pygame]
   gentoo: [dev-python/pygame]
   nixos: [python3Packages.pygame]
+  opensuse: [python3-pygame]
   ubuntu:
     '*': [python3-pygame]
     bionic:
@@ -7750,6 +7779,7 @@ python3-pyproj:
   gentoo: [dev-python/pyproj]
   nixos: [python3Packages.pyproj]
   openembedded: [python3-pyproj@meta-ros-common]
+  opensuse: [python3-pyproj]
   rhel:
     '*': ['python%{python3_pkgversion}-pyproj']
     '7': null
@@ -8292,6 +8322,7 @@ python3-simplejson:
   gentoo: [dev-python/simplejson]
   nixos: [python3Packages.simplejson]
   openembedded: [python3-simplejson@meta-python]
+  opensuse: [python3-simplejson]
   ubuntu: [python3-simplejson]
 python3-sip:
   debian: [python3-sip-dev]
@@ -8790,6 +8821,7 @@ python3-whichcraft:
   fedora: [python3-whichcraft]
   gentoo: [dev-python/whichcraft]
   nixos: [python3Packages.whichcraft]
+  opensuse: [python3-whichcraft]
   ubuntu: [python3-whichcraft]
 python3-wrapt:
   arch: [python-wrapt]

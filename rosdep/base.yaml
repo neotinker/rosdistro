@@ -255,6 +255,7 @@ avahi-daemon:
   gentoo: [net-dns/avahi]
   nixos: [avahi]
   openembedded: [avahi@openembedded-core]
+  opensuse: [avahi]
   ubuntu: [avahi-daemon]
 avahi-utils:
   arch: [avahi]
@@ -276,6 +277,7 @@ avrdude:
   fedora: [avrdude]
   gentoo: [dev-embedded/avrdude]
   nixos: [avrdude]
+  opensuse: [avrdude]
   ubuntu: [avrdude]
 awscli:
   arch: [aws-cli]
@@ -314,6 +316,7 @@ benchmark:
   fedora: [google-benchmark-devel]
   nixos: [gbenchmark]
   openembedded: [google-benchmark@meta-ros2]
+  opensuse: [benchmark-devel]
   rhel: [google-benchmark-devel]
   ubuntu:
     '*': [libbenchmark-dev]
@@ -325,6 +328,7 @@ binutils:
   gentoo: [sys-devel/binutils]
   nixos: [binutils]
   openembedded: [binutils@openembedded-core]
+  opensuse: [binutils-devel]
   rhel: [binutils-devel]
   ubuntu: [binutils-dev]
 bison:
@@ -336,6 +340,7 @@ bison:
   macports: [bison]
   nixos: [bison]
   openembedded: [bison@openembedded-core]
+  opensuse: [bison]
   rhel: [bison]
   ubuntu: [bison]
 blender:
@@ -505,6 +510,7 @@ clang:
   fedora: [clang]
   gentoo: [sys-devel/clang]
   nixos: [clang]
+  opensuse: [clang]
   rhel:
     '*': [clang]
     '7': null
@@ -532,6 +538,7 @@ clang-tidy:
   fedora: [clang-tools-extra]
   gentoo: [sys-devel/clang]
   nixos: [clang]
+  opensuse: [clang-tools]
   rhel:
     '*': [clang-tools-extra]
     '7': null
@@ -659,6 +666,7 @@ cppcheck:
   gentoo: [dev-util/cppcheck]
   nixos: [cppcheck]
   openembedded: [cppcheck@meta-ros-common]
+  opensuse: [cppcheck]
   osx:
     homebrew:
       packages: [cppcheck]
@@ -821,6 +829,7 @@ dpkg:
   gentoo: [app-arch/dpkg]
   nixos: [dpkg]
   openembedded: [dpkg@openembedded-core]
+  opensuse: [dpkg]
   ubuntu: [dpkg]
 dpkg-dev:
   debian: [dpkg-dev]
@@ -898,6 +907,7 @@ emacs:
   gentoo: [virtual/emacs]
   nixos: [emacs]
   openembedded: [emacs@meta-oe]
+  opensuse: [emacs]
   ubuntu: [emacs]
 embree:
   arch: [embree]
@@ -961,6 +971,7 @@ festival:
   fedora: [festival, festvox-kal-diphone]
   gentoo: [app-accessibility/festival]
   openembedded: [festival@meta-ros1]
+  opensuse: [festival]
   ubuntu: [festival, festvox-kallpc16k]
 festival-dev:
   debian: [festival-dev]
@@ -1071,6 +1082,7 @@ fmt:
   fedora: [fmt-devel]
   gentoo: [dev-libs/libfmt]
   nixos: [fmt]
+  opensuse: [fmt-devel]
   ubuntu: [libfmt-dev]
 fonts-noto:
   alpine: [font-noto]
@@ -1150,6 +1162,7 @@ gawk:
   gentoo: [sys-apps/gawk]
   nixos: [gawk]
   openembedded: [gawk@openembedded-core]
+  opensuse: [gawk]
   ubuntu: [gawk]
 gazebo:
   arch: [gazebo]
@@ -1294,6 +1307,7 @@ gfortran:
   fedora: [gcc-gfortran]
   gentoo: ['sys-devel/gcc[fortran]']
   nixos: [gfortran]
+  opensuse: [gcc11-fortran]
   ubuntu: [gfortran]
 ghc:
   arch: [ghc]
@@ -1401,6 +1415,7 @@ gnuplot:
   gentoo: [sci-visualization/gnuplot]
   nixos: [gnuplot]
   openembedded: [gnuplot@meta-oe]
+  opensuse: [gnuplot]
   ubuntu: [gnuplot]
 gnuplot-x11:
   debian: [gnuplot-x11]
@@ -1572,6 +1587,7 @@ gstreamer1.0-alsa:
   fedora: [gstreamer1-plugins-base]
   nixos: [gst_all_1.gst-plugins-base]
   openembedded: [gstreamer1.0-plugins-base@openembedded-core]
+  opensuse: [gstreamer-plugins-base]
   rhel: [gstreamer1-plugins-base]
   ubuntu: [gstreamer1.0-alsa]
 gstreamer1.0-gl:
@@ -2114,6 +2130,7 @@ java:
   freebsd: [openjdk6]
   gentoo: [virtual/jdk]
   nixos: [openjdk]
+  opensuse: [java-1_8_0-openjdk]
   rhel: [java]
   ubuntu: [default-jdk]
 joystick:
@@ -2131,6 +2148,7 @@ jq:
   fedora: [jq]
   gentoo: [app-misc/jq]
   nixos: [jq]
+  opensuse: [jq]
   rhel: [jq]
   ubuntu: [jq]
 julius-voxforge:
@@ -2284,6 +2302,7 @@ libavahi-core-dev:
   fedora: [avahi-devel]
   gentoo: [net-dns/avahi]
   nixos: [avahi]
+  opensuse: [libavahi-devel]
   rhel: [avahi-devel]
   ubuntu: [libavahi-core-dev]
 libavdevice-dev:
@@ -2315,6 +2334,7 @@ libblas-dev:
   gentoo: [virtual/blas]
   nixos: [blas]
   openembedded: [openblas@meta-ros-common]
+  opensuse: [blas-devel]
   rhel: [blas-devel]
   ubuntu: [libblas-dev]
 libbluetooth:
@@ -2780,6 +2800,7 @@ libceres-dev:
   gentoo: ['sci-libs/ceres-solver[sparse,lapack]']
   nixos: [ceres-solver]
   openembedded: [ceres-solver@meta-oe]
+  opensuse: [libceres-devel]
   rhel: [ceres-solver-devel]
   ubuntu: [libceres-dev]
 libcgroup-dev:
@@ -3043,6 +3064,7 @@ libfftw3:
   gentoo: ['sci-libs/fftw:3.0']
   nixos: [fftw, fftwSinglePrec]
   openembedded: [fftw@meta-oe]
+  opensuse: [fftw3, fftw3-devel]
   ubuntu: [libfftw3-3, libfftw3-dev]
 libfl-dev:
   debian: [libfl-dev]
@@ -3258,6 +3280,7 @@ libgeos++-dev:
   gentoo: [sci-libs/geos]
   nixos: [geos]
   openembedded: [geos@meta-oe]
+  opensuse: [geos-devel]
   rhel: [geos-devel]
   ubuntu: [libgeos++-dev]
 libgeotiff-dev:
@@ -3409,6 +3432,7 @@ libgphoto-dev:
   gentoo: [media-gfx/gphoto2]
   nixos: [libgphoto2]
   openembedded: [libgphoto2@meta-oe]
+  opensuse: [libgphoto2-devel]
   rhel: [libgphoto2-devel]
   ubuntu:
     '*': [libgphoto2-dev]
@@ -3445,6 +3469,7 @@ libgsl:
   macports: [gsl]
   nixos: [gsl]
   openembedded: [gsl@meta-oe]
+  opensuse: [gsl-devel]
   ubuntu:
     '*': [libgsl-dev]
     precise: [libgsl0-dev]
@@ -3537,6 +3562,7 @@ libhdf5-dev:
   gentoo: [sci-libs/hdf5]
   nixos: [hdf5]
   openembedded: [hdf5@meta-oe]
+  opensuse: [hdf5-devel]
   ubuntu: [libhdf5-dev]
 libhidapi-dev:
   debian: [libhidapi-dev]
@@ -3873,6 +3899,7 @@ libmicrohttpd:
   gentoo: [net-libs/libmicrohttpd]
   nixos: [libmicrohttpd]
   openembedded: [libmicrohttpd@meta-oe]
+  opensuse: [libmicrohttpd-devel]
   rhel: [libmicrohttpd-devel]
   ubuntu: [libmicrohttpd-dev]
 libmlpack-dev:
@@ -3989,6 +4016,7 @@ libncurses-dev:
   macports: [ncurses]
   nixos: [ncurses]
   openembedded: [ncurses@openembedded-core]
+  opensuse: [ncurses-devel]
   rhel: [ncurses-devel]
   ubuntu: [libncurses5-dev]
 libneon27-gnutls-dev:
@@ -4035,6 +4063,7 @@ libnlopt-dev:
   fedora: [NLopt-devel]
   gentoo: [sci-libs/nlopt]
   nixos: [nlopt]
+  opensuse: [nlopt-devel]
   ubuntu: [libnlopt-dev]
 libnlopt0:
   debian: [libnlopt0]
@@ -4080,7 +4109,7 @@ libogre:
   macports: [ogre]
   nixos: [ogre1_9]
   openembedded: [ogre@meta-ros-common]
-  opensuse: [ogre-devel]
+  opensuse: [libOgreMain-devel, libOgreOverlay-devel, libOgrePaging-devel, libOgreProperty-devel, libOgreRTShaderSystem-devel, libOgreTerrain-devel, libOgreVolume-devel]
   slackware: [ogre]
   ubuntu:
     artful: [libogre-1.9-dev]
@@ -4147,6 +4176,7 @@ libomp-dev:
   debian: [libomp-dev]
   fedora: [libomp-devel]
   nixos: [llvmPackages.openmp]
+  opensuse: [libomp11-devel]
   rhel:
     '*': [libomp-devel]
     '7': null
@@ -4169,6 +4199,7 @@ libopenblas-dev:
   fedora: [openblas-devel]
   nixos: [openblas]
   openembedded: [openblas@meta-ros-common]
+  opensuse: [openblas-devel]
   rhel: [openblas-devel]
   ubuntu: [libopenblas-dev]
 libopencv-contrib-dev:
@@ -4203,6 +4234,7 @@ libopenexr-dev:
   fedora: [OpenEXR-devel]
   gentoo: [media-libs/openexr]
   nixos: [openexr]
+  opensuse: [openexr-devel]
   rhel: [OpenEXR-devel]
   ubuntu: [libopenexr-dev]
 libopenni-dev:
@@ -4340,6 +4372,7 @@ libpcap:
   macports: [libpcap]
   nixos: [libpcap]
   openembedded: [libpcap@openembedded-core]
+  opensuse: [libpcap-devel]
   rhel: [libpcap-devel]
   ubuntu: [libpcap0.8-dev]
 libpcl-all:
@@ -4521,6 +4554,7 @@ libpulse-dev:
   gentoo: [media-sound/pulseaudio]
   nixos: [pulseaudio]
   openembedded: [pulseaudio@openembedded-core]
+  opensuse: [libpulse-devel]
   ubuntu: [libpulse-dev]
 libqcustomplot-dev:
   debian:
@@ -4824,6 +4858,7 @@ libqt5-websockets-dev:
   gentoo: ['dev-qt/qtwebsockets:5']
   nixos: [qt5.qtwebsockets]
   openembedded: [qtwebsockets@meta-qt5]
+  opensuse: [libqt5-qtwebsockets-devel]
   rhel: [qt5-qtwebsockets-devel]
   ubuntu: [libqt5websockets5-dev]
 libqt5-widgets:
@@ -4842,6 +4877,7 @@ libqt5-widgets:
 libqt5-xml:
   debian: [libqt5xml5]
   nixos: [qt5.qtbase]
+  opensuse: [libQt5Xml5]
   ubuntu: [libqt5xml5]
 libqt5multimedia5-plugins:
   arch: [qt5-multimedia]
@@ -4858,6 +4894,7 @@ libqt5x11extras5-dev:
   gentoo: ['dev-qt/qtx11extras:5']
   nixos: [qt5.qtx11extras]
   openembedded: [qtx11extras@meta-qt5]
+  opensuse: [libqt5-qtx11extras-devel]
   rhel: [qt5-qtx11extras-devel]
   ubuntu: [libqt5x11extras5-dev]
 libqtgui4:
@@ -4883,6 +4920,7 @@ libqwt-qt5-dev:
   gentoo: ['x11-libs/qwt:6']
   nixos: [libsForQt5.qwt]
   openembedded: [qwt-qt5@meta-qt5]
+  opensuse: [libQt5Widgets-devel]
   ubuntu:
     '*': [libqwt-qt5-dev]
     trusty: null
@@ -4929,6 +4967,7 @@ libraw1394-dev:
   gentoo: [sys-libs/libraw1394]
   nixos: [libraw1394]
   openembedded: [libraw1394@meta-oe]
+  opensuse: [libraw1394-devel]
   rhel: [libraw1394-devel]
   ubuntu: [libraw1394-dev]
 librdkafka-dev:
@@ -4955,6 +4994,7 @@ libreadline-dev:
   macports: [readline]
   nixos: [readline]
   openembedded: [readline@openembedded-core]
+  opensuse: [readline-devel]
   ubuntu: [libreadline-dev]
 libreadline-java:
   arch: [java-readline]
@@ -5017,6 +5057,7 @@ libspnav-dev:
   fedora: [libspnav-devel, libX11-devel]
   gentoo: [dev-libs/libspnav]
   nixos: [libspnav]
+  opensuse: [libspnav-devel, libX11-devel]
   rhel: [libspnav-devel, libX11-devel]
   ubuntu: [libspnav-dev, libx11-dev]
 libsqlite3-dev:
@@ -5027,6 +5068,7 @@ libsqlite3-dev:
   gentoo: ['dev-db/sqlite:3']
   nixos: [sqlite]
   openembedded: [sqlite3@openembedded-core]
+  opensuse: [sqlite3-devel]
   rhel: [libsq3-devel]
   ubuntu: [libsqlite3-dev]
 libsrtp0-dev:
@@ -5708,6 +5750,7 @@ libxmlrpc-c++:
   gentoo: [dev-libs/xmlrpc-c]
   nixos: [xmlrpc_c]
   openembedded: [xmlrpc-c@meta-oe]
+  opensuse: [xmlrpc-c-devel]
   rhel: [xmlrpc-c-devel]
   ubuntu: [libxmlrpc-c++8-dev]
 libxmu-dev:
@@ -5717,6 +5760,7 @@ libxmu-dev:
   gentoo: [x11-libs/libXmu]
   nixos: [xorg.libXmu]
   openembedded: [libxmu@openembedded-core]
+  opensuse: [libXmu-devel]
   rhel: [libXmu-devel]
   ubuntu: [libxmu-dev]
 libxrandr:
@@ -5836,6 +5880,7 @@ linux-kernel-headers:
   gentoo: [sys-kernel/linux-headers]
   nixos: [linuxHeaders]
   openembedded: [linux-libc-headers@openembedded-core]
+  opensuse: [kernel-devel]
   ubuntu: [linux-libc-dev]
 llvm:
   arch: [llvm]
@@ -5876,6 +5921,7 @@ lm-sensors:
   gentoo: [sys-apps/lm_sensors]
   nixos: [lm_sensors]
   openembedded: [lmsensors@meta-oe]
+  opensuse: [sensors]
   ubuntu: [lm-sensors]
 log4cplus:
   arch: [log4cplus]
@@ -5883,6 +5929,7 @@ log4cplus:
   fedora: [log4cplus-devel]
   nixos: [log4cplus]
   openembedded: [log4cplus@openembedded-core]
+  opensuse: [log4cplus-devel]
   rhel: [log4cplus-devel]
   ubuntu: [liblog4cplus-dev]
 log4cxx:
@@ -5949,6 +5996,7 @@ lua5.2-dev:
   gentoo: ['dev-lang/lua:5.2']
   nixos: [lua5]
   openembedded: [lua@meta-oe]
+  opensuse: [lua53-devel]
   rhel: [lua-devel]
   ubuntu: [liblua5.2-dev]
 lz4:
@@ -6190,6 +6238,7 @@ msgpack:
   gentoo: [dev-libs/msgpack]
   nixos: [msgpack]
   openembedded: [msgpack-c@meta-oe]
+  opensuse: [msgpack-devel]
   ubuntu: [libmsgpack-dev]
 msr-tools:
   arch: [msr-tools]
@@ -6275,6 +6324,7 @@ nkf:
   fedora: [nkf]
   gentoo: [app-i18n/nkf]
   nixos: [nkf]
+  opensuse: [nkf]
   rhel: [nkf]
   ubuntu: [nkf]
 nlohmann-json-dev:
@@ -6319,6 +6369,7 @@ npm:
   fedora: [npm]
   gentoo: ['net-libs/nodejs[npm]']
   nixos: [nodePackages.npm]
+  opensuse: [npm-default]
   ubuntu: [npm]
 ntp:
   arch: [ntp]
@@ -6385,6 +6436,7 @@ opencl-headers:
   fedora: [opencl-headers]
   nixos: [opencl-headers]
   openembedded: [opencl-headers@meta-oe]
+  opensuse: [opencl-headers]
   rhel: [opencl-headers]
   ubuntu: [opencl-headers]
 opende:
@@ -6614,6 +6666,7 @@ postgresql:
   fedora: [postgresql-server, postgresql-contrib]
   nixos: [postgresql]
   openembedded: [postgresql@meta-oe]
+  opensuse: [postgresql-server, postgresql-contrib]
   ubuntu: [postgresql, postgresql-contrib]
 postgresql-9.x-postgis:
   debian:
@@ -6668,6 +6721,7 @@ procps:
   gentoo: [sys-process/procps]
   nixos: [procps]
   openembedded: [procps@openembedded-core]
+  opensuse: [procps]
   ubuntu: [procps]
 proj:
   arch: [proj]
@@ -6736,6 +6790,7 @@ pugixml-dev:
   fedora: [pugixml-devel]
   nixos: [pugixml]
   openembedded: [pugixml@meta-oe]
+  opensuse: [pugixml-devel]
   rhel: [pugixml-devel]
   ubuntu: [libpugixml-dev]
 pybind11-dev:
@@ -6751,6 +6806,7 @@ python-dev:
   debian: [python-dev]
   fedora: [python2-devel]
   nixos: [pythonPackages.python]
+  opensuse: [python-devel]
   ubuntu:
     '*': [python-dev]
     focal: [python2-dev]
@@ -6891,6 +6947,7 @@ qtmultimedia5-dev:
   gentoo: ['dev-qt/qtmultimedia:5']
   nixos: [qt5.qtmultimedia]
   openembedded: [qtmultimedia@meta-qt5]
+  opensuse: [libqt5-qtmultimedia-devel]
   ubuntu: [qtmultimedia5-dev]
 qtpositioning5-dev:
   debian: [qtpositioning5-dev]
@@ -7292,6 +7349,7 @@ sshpass:
   fedora: [sshpass]
   gentoo: [net-misc/sshpass]
   nixos: [sshpass]
+  opensuse: [sshpass]
   ubuntu: [sshpass]
 stress:
   arch: [stress]
@@ -7417,6 +7475,7 @@ swig:
   gentoo: [dev-lang/swig]
   nixos: [swig]
   openembedded: [swig@openembedded-core]
+  opensuse: [swig]
   ubuntu: [swig]
 swig-wx:
   gentoo: [dev-lang/swig]
@@ -7427,6 +7486,7 @@ sysstat:
   gentoo: [app-admin/sysstat]
   nixos: [sysstat]
   openembedded: [sysstat@openembedded-core]
+  opensuse: [sysstat]
   ubuntu: [sysstat]
 systemd:
   arch: [systemd]
@@ -7657,6 +7717,7 @@ udev:
   gentoo: [sys-fs/udev]
   nixos: [udev]
   openembedded: [udev@openembedded-core]
+  opensuse: [systemd]
   rhel: [systemd]
   ubuntu: [udev]
 udhcpc:
@@ -7725,6 +7786,7 @@ usbutils:
   macports: [usbutils]
   nixos: [usbutils]
   openembedded: [usbutils@openembedded-core]
+  opensuse: [usbutils]
   osx:
     homebrew:
       packages: [lsusb]
@@ -7739,6 +7801,7 @@ util-linux:
   macports: [util-linux]
   nixos: [util-linux]
   openembedded: [util-linux@openembedded-core]
+  opensuse: [util-linux]
   ubuntu:
     '*': [util-linux]
     bionic: [setpriv, util-linux]
@@ -7769,6 +7832,7 @@ v4l-utils:
   gentoo: [media-tv/v4l-utils]
   nixos: [v4l-utils]
   openembedded: [v4l-utils@meta-oe]
+  opensuse: [v4l-utils]
   rhel:
     '7': [v4l-utils]
   ubuntu: [v4l-utils]
@@ -7791,6 +7855,7 @@ vlc:
   gentoo: [media-video/vlc]
   nixos: [vlc]
   openembedded: [vlc@meta-multimedia]
+  opensuse: [vlc]
   ubuntu: [vlc]
 vorbis-tools:
   arch: [vorbis-tools]
@@ -7861,6 +7926,7 @@ wx-common:
   gentoo: [x11-libs/wxGTK]
   nixos: [wxGTK]
   openembedded: [wxwidgets@meta-ros-common]
+  opensuse: [wxGTK3-3_2-devel]
   rhel:
     '*': [wxGTK3-devel]
     '7': [wxGTK-devel]
@@ -7940,6 +8006,7 @@ xfonts-75dpi:
   fedora: [xorg-x11-fonts-100dpi]
   gentoo: [media-fonts/font-adobe-75dpi, media-fonts/font-bh-75dpi, media-fonts/font-bh-lucidatypewriter-75dpi, media-fonts/font-bitstream-75dpi]
   nixos: [xorg.fontadobe75dpi, xorg.fontbh75dpi, xorg.fontbhlucidatypewriter75dpi, xorg.fontbitstream75dpi]
+  opensuse: [xorg-x11-fonts-legacy]
   ubuntu: [xfonts-75dpi]
 xpath-perl:
   arch: [perl-xml-xpath]
@@ -7968,6 +8035,7 @@ xterm:
   gentoo: [x11-terms/xterm]
   nixos: [xterm]
   openembedded: [xterm@meta-oe]
+  opensuse: [xterm]
   ubuntu: [xterm]
 xulrunner-1.9.2:
   arch: [xulrunner]
@@ -7991,6 +8059,7 @@ xvfb:
   fedora: [xorg-x11-server-Xvfb]
   gentoo: [x11-misc/xvfb-run]
   nixos: [xorg.xorgserver]
+  opensuse: [xorg-x11-server]
   ubuntu: [xvfb]
 xz-utils:
   arch: [xz]
@@ -8049,6 +8118,7 @@ zbar:
   gentoo: [media-gfx/zbar]
   nixos: [zbar]
   openembedded: [zbar@meta-oe]
+  opensuse: [zbar, libzbar-devel]
   rhel: [zbar-devel]
   ubuntu: [libzbar-dev]
 zenity:
