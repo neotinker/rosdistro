@@ -1207,6 +1207,7 @@ gazebo9:
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
   openembedded: []
+  opensuse: [gazebo9]
   ubuntu:
     artful: [gazebo9]
     bionic: [gazebo9]
@@ -2832,7 +2833,7 @@ libconsole-bridge-dev:
   gentoo: [dev-libs/console_bridge]
   nixos: [console-bridge]
   openembedded: [console-bridge@meta-ros-common]
-  opensuse: [libconsole_bridge0]
+  opensuse: [libconsole_bridge0_4]
   rhel: [console-bridge-devel]
   slackware: [console_bridge]
   ubuntu: [libconsole-bridge-dev]
@@ -3020,6 +3021,7 @@ libfcl-dev:
   gentoo: [sci-libs/fcl]
   nixos: [fcl]
   openembedded: [fcl@meta-ros-common]
+  opensuse: [fcl-devel]
   rhel:
     '*': [fcl-devel]
     '7': null
@@ -3224,6 +3226,7 @@ libgazebo9-dev:
     stretch: [libgazebo9-dev]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo_9]
+  opensuse: [gazebo9-devel]
   ubuntu:
     artful: [libgazebo9-dev]
     bionic: [libgazebo9-dev]
@@ -4308,6 +4311,7 @@ liborocos-kdl:
   gentoo: [sci-libs/orocos_kdl]
   nixos: [orocos-kdl]
   openembedded: [orocos-kdl@meta-ros1-noetic]
+  opensuse: [liborocos-kdl1_5]
   ubuntu:
     '*': [liborocos-kdl1.4]
     bionic: [liborocos-kdl1.3]
@@ -4318,6 +4322,7 @@ liborocos-kdl-dev:
   gentoo: [sci-libs/orocos_kdl]
   nixos: [orocos-kdl]
   openembedded: [orocos-kdl@meta-ros1-noetic]
+  opensuse: [orocos-kdl-devel]
   ubuntu: [liborocos-kdl-dev]
 libosmesa6-dev:
   arch: [mesa]
@@ -4348,7 +4353,7 @@ libpcl-all:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
-  opensuse: [pcl]
+  opensuse: [libpcl1.9, pcl-tools]
   rhel: [pcl, pcl-tools]
   slackware: [pcl]
   ubuntu:
@@ -4365,7 +4370,7 @@ libpcl-all-dev:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
-  opensuse: [pcl]
+  opensuse: [pcl-devel]
   rhel: [pcl-devel]
   slackware: [pcl]
   ubuntu: [libpcl-dev]
@@ -5309,7 +5314,7 @@ liburdfdom-headers-dev:
   gentoo: [dev-libs/urdfdom_headers]
   nixos: [urdfdom-headers]
   openembedded: [urdfdom-headers@meta-ros1]
-  opensuse: [urdfdom-headers-devel]
+  opensuse: [urdfdom_headers-devel]
   rhel: [urdfdom-headers-devel]
   slackware: [urdfdom_headers]
   ubuntu: [liburdfdom-headers-dev]
@@ -5321,6 +5326,7 @@ liburdfdom-tools:
   gentoo: [dev-libs/urdfdom]
   nixos: [urdfdom]
   openembedded: [urdfdom@meta-ros1]
+  opensuse: [urdfdom]
   rhel: [urdfdom]
   slackware: [urdfdom]
   ubuntu: [liburdfdom-tools]
