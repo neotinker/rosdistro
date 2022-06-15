@@ -3225,6 +3225,7 @@ libgazebo11-dev:
     buster: [libgazebo11-dev]
   gentoo: [=sci-electronics/gazebo-11*]
   nixos: [gazebo_11]
+  opensuse: [gazebo11-devel]
   ubuntu:
     focal: [libgazebo11-dev]
     jammy: [libgazebo-dev]
